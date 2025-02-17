@@ -11,13 +11,17 @@ modes: goggins_batman_hybrid
 -->
 
 <!-- AI.SECTION.START: WORKOUT_TEMPLATES -->
+
 # WORKOUT TEMPLATES
 
 ## TEMPLATE CATEGORIES
+
 <!-- AI.CONTEXT: TEMPLATE_CATEGORIES -->
 
 ### Movement Foundation Sessions
+
 **Ground Movement Focus:**
+
 1. Animal movement patterns
    - Quadrupedal locomotion
    - Flow state development
@@ -25,13 +29,17 @@ modes: goggins_batman_hybrid
    - Pattern sustainability
 
 ### Energy System Development
+
 **Work Capacity Sessions:**
+
 1. ATP-CP system training
+
    - 6-12s efforts
    - Mixed system development
    - Recovery optimization
 
 2. Glycolytic system work
+
    - 30s-2min
    - Recovery integration
    - Pattern stability
@@ -42,19 +50,24 @@ modes: goggins_batman_hybrid
    - System adaptation
 
 ### Strength-Skill Integration
+
 **Hybrid Sessions:**
+
 1. Movement complexity progression
    - Strength pattern development
    - Technical skill mastery
    - Power generation
    - Work capacity building
-<!-- AI.CONTEXT.END: TEMPLATE_CATEGORIES -->
+   <!-- AI.CONTEXT.END: TEMPLATE_CATEGORIES -->
 
 ## WORKOUT STRUCTURES
+
 <!-- AI.CONTEXT: WORKOUT_STRUCTURES -->
 
 ### Micro-Workout Format
+
 **Time-Based Options:**
+
 1. 5-15 minute sessions
    - Movement skill focus
    - Energy system development
@@ -62,7 +75,9 @@ modes: goggins_batman_hybrid
    - Pattern sustainability
 
 ### Full Session Format
+
 **60-90 Minute Sessions:**
+
 1. Movement preparation
    - Skill development
    - Strength work
@@ -70,19 +85,24 @@ modes: goggins_batman_hybrid
    - Recovery integration
 
 ### Flow Session Format
+
 **Free Movement Practice:**
+
 1. Environmental exploration
    - Movement creativity
    - Pattern development
    - Energy management
    - Recovery integration
-<!-- AI.CONTEXT.END: WORKOUT_STRUCTURES -->
+   <!-- AI.CONTEXT.END: WORKOUT_STRUCTURES -->
 
 ## IMPLEMENTATION PROTOCOLS
+
 <!-- AI.CONTEXT: IMPLEMENTATION_PROTOCOLS -->
 
 ### Session Components
+
 **Movement Preparation:**
+
 1. Joint mobility
    - Tissue preparation
    - Neural activation
@@ -90,6 +110,7 @@ modes: goggins_batman_hybrid
    - System warmup
 
 **Skill Development:**
+
 1. Pattern progression
    - Technical refinement
    - Movement exploration
@@ -97,6 +118,7 @@ modes: goggins_batman_hybrid
    - Environmental adaptation
 
 **Strength Integration:**
+
 1. Pattern strength
    - Power development
    - Work capacity
@@ -104,6 +126,7 @@ modes: goggins_batman_hybrid
    - Recovery management
 
 **Energy Development:**
+
 1. System-specific work
    - Capacity building
    - Output enhancement
@@ -111,18 +134,22 @@ modes: goggins_batman_hybrid
    - Pattern sustainability
 
 **Recovery Integration:**
+
 1. Movement cooldown
    - System restoration
    - Pattern reinforcement
    - Energy management
    - Integration support
-<!-- AI.CONTEXT.END: IMPLEMENTATION_PROTOCOLS -->
+   <!-- AI.CONTEXT.END: IMPLEMENTATION_PROTOCOLS -->
 
 ## MODE-SPECIFIC TEMPLATES
+
 <!-- AI.CONTEXT: MODE_TEMPLATES -->
 
 ### HYBRID MODE Sessions
+
 **Balanced Development:**
+
 1. Technical-intensity harmony
    - Movement complexity progression
    - Energy system optimization
@@ -130,7 +157,9 @@ modes: goggins_batman_hybrid
    - Pattern sustainability
 
 ### GOGGINS MODE Sessions
+
 **Intensity Focus:**
+
 1. Work capacity emphasis
    - Mental toughness development
    - Energy system challenge
@@ -138,19 +167,24 @@ modes: goggins_batman_hybrid
    - Pattern maintenance
 
 ### BATMAN MODE Sessions
+
 **Technical Mastery:**
+
 1. Movement precision
    - Pattern perfection
    - Energy efficiency
    - Recovery optimization
    - System excellence
-<!-- AI.CONTEXT.END: MODE_TEMPLATES -->
+   <!-- AI.CONTEXT.END: MODE_TEMPLATES -->
 
 ## PROGRESSION MODELS
+
 <!-- AI.CONTEXT: PROGRESSION_MODELS -->
 
 ### Skill Development Path
+
 **Pattern Progression:**
+
 1. Foundation movement mastery
    - Complexity introduction
    - Flow state cultivation
@@ -158,7 +192,9 @@ modes: goggins_batman_hybrid
    - Integration efficiency
 
 ### Energy System Path
+
 **Capacity Development:**
+
 1. System-specific progression
    - Work capacity building
    - Output enhancement
@@ -166,18 +202,22 @@ modes: goggins_batman_hybrid
    - Pattern sustainability
 
 ### Strength Integration Path
+
 **Power Development:**
+
 1. Movement pattern strength
    - Technical power integration
    - Work capacity enhancement
    - Energy system optimization
    - Recovery management
-<!-- AI.CONTEXT.END: PROGRESSION_MODELS -->
+   <!-- AI.CONTEXT.END: PROGRESSION_MODELS -->
 
 ## TEMPLATE SELECTION
+
 <!-- AI.CONTEXT: TEMPLATE_SELECTION -->
 
 **Assessment Protocol:**
+
 1. Movement pattern analysis
    - Energy system evaluation
    - Recovery need identification
@@ -185,10 +225,11 @@ modes: goggins_batman_hybrid
    - System protection check
 
 **Integration Guidelines:**
+
 1. Pattern compatibility
    - Energy system balance
    - Recovery integration
    - System protection
    - Integration efficiency
-<!-- AI.CONTEXT.END: TEMPLATE_SELECTION -->
-<!-- AI.SECTION.END: WORKOUT_TEMPLATES -->
+     <!-- AI.CONTEXT.END: TEMPLATE_SELECTION -->
+     <!-- AI.SECTION.END: WORKOUT_TEMPLATES -->
