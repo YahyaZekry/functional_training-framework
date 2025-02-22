@@ -1,7 +1,7 @@
 <!-- AI.FRAMEWORK.COMPONENT: MASTER_MISSION -->
 <!-- AI.METADATA
 component: master_mission
-version: 3.0
+version: 3.1
 last_updated: 2025
 framework_type: superfunctional_training
 language: en
@@ -17,6 +17,31 @@ modes: goggins_batman_hybrid
 <!-- AI.CONTEXT: CORE_MISSION -->
 
 **Develop complete human performance optimization through three foundational pillars:**
+
+## MANDATORY CLIENT INFORMATION
+### Demographics Protocol
+**Required Information:**
+- Full Name
+- Age
+- Sex (Male/Female)
+- Location
+- Height/Weight
+
+### Health Screening Protocol
+**Required Assessment:**
+- Current health conditions
+- Previous injuries
+- Ongoing medical treatments
+- Physical limitations
+- Medical clearance status
+- Current medications
+- Emergency contact information
+
+**Implementation:**
+- Must be completed before framework activation
+- Required for safety protocol customization
+- Necessary for progression planning
+- Essential for risk management
 
 ### 1. Physical Development Pillar
 
