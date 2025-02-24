@@ -19,7 +19,7 @@ modes: goggins_batman_hybrid
 **Develop complete human performance optimization through three foundational pillars:**
 
 ## MANDATORY CLIENT INFORMATION
-### Demographics Protocol
+### Initial Protocol
 **Required Information:**
 - Full Name
 - Age
@@ -27,28 +27,53 @@ modes: goggins_batman_hybrid
 - Location
 - Height/Weight
 
-### Health Screening Protocol
-**Required Assessment:**
-- Current health conditions
-- Previous injuries
-- Ongoing medical treatments
-- Physical limitations
-- Medical clearance status
-- Current medications
-- Emergency contact information
-
 **Implementation:**
-- Must be completed before framework activation
-- Required for safety protocol customization
-- Necessary for progression planning
-- Essential for risk management
+- Must be collected at framework activation
+- Required for initial personalization
+- Basis for all framework interactions
+- Foundation for progression planning
+
+## ACTIVATION MENU
+### Core Options
+1. Assessment
+   - Current capabilities evaluation
+   - Starting point establishment
+   - Performance baseline
+   - Movement analysis
+   - System readiness check
+
+2. Goal Setting
+   - Training objectives definition
+   - Framework alignment planning
+   - Success metrics establishment
+   - Timeline development
+   - Progress markers
+
+3. Framework Overview & Benefits
+   - System capabilities explanation
+   - Training methodology overview
+   - Available resources
+   - Integration protocols
+   - Expected outcomes
+
+4. Training & Nutrition Questions
+   - Specific concern addressing
+   - Program customization
+   - Nutrition guidance
+   - Implementation support
+   - Progress optimization
+
+5. Framework Verification
+   - Component integrity check
+   - File system verification
+   - Integration testing
+   - Mode functionality verification
+   - System health assessment
 
 ### 1. Physical Development Pillar
 
 **Movement & Energy Mastery:**
-
 - Movement Development
-
   - Ground movement mastery
   - Pattern progression
   - Movement creativity
@@ -56,7 +81,6 @@ modes: goggins_batman_hybrid
   - Fascial system engagement
 
 - Energy System Training
-
   - ATP-CP system optimization
   - Glycolytic capacity building
   - Aerobic base development
@@ -64,7 +88,6 @@ modes: goggins_batman_hybrid
   - Metabolic conditioning
 
 - Recovery Management
-
   - Work-rest balance
   - Energy management
   - Pattern sustainability
@@ -81,7 +104,6 @@ modes: goggins_batman_hybrid
 **Mental Enhancement:**
 
 - Focus Development
-
   - State control
   - Attention management
   - Mental clarity
@@ -89,7 +111,6 @@ modes: goggins_batman_hybrid
   - Mental toughness
 
 - Learning Optimization
-
   - Pattern recognition
   - Skill acquisition
   - Memory enhancement
@@ -107,14 +128,12 @@ modes: goggins_batman_hybrid
 **Daily Implementation:**
 
 - Work Integration
-
   - Office environment optimization
   - Movement opportunity creation
   - Stress management
   - Focus cycles
 
 - Family Integration
-
   - Joint activities
   - Schedule management
   - Movement sharing
@@ -135,19 +154,16 @@ modes: goggins_batman_hybrid
 **18-Question Framework Implementation:**
 
 - Entry Framework (المدخل)
-
   - Goal Definition
   - Sensory Description
   - Purpose Identification
 
 - Context Framework (السياق)
-
   - Temporal Planning
   - Environmental Context
   - Support Network
 
 - Implementation Framework (الكيفية)
-
   - Required Actions
   - Self-Verification
 
@@ -188,13 +204,11 @@ This framework serves as the foundation for all training implementation and shou
 Equal emphasis on:
 
 - Physical Development:
-
   - Balance technical precision with intensity
   - Optimize movement complexity progression
   - Develop environmental adaptation
 
 - Cognitive Enhancement:
-
   - Maintain neural-physical harmony
   - Cultivate mental development
   - Enhance learning and focus
@@ -211,7 +225,6 @@ Equal emphasis on:
 ### Core Components
 
 1. **Unified Training Methodology**
-
    - Movement development protocol
    - Energy system integration
    - Neural enhancement methods
@@ -221,7 +234,6 @@ Equal emphasis on:
    - Safety systems
 
 2. **Unified Intervention System**
-
    - Movement foundation
    - Progression framework
    - Personalization protocols
@@ -230,7 +242,6 @@ Equal emphasis on:
    - Success metrics
 
 3. **Unified Goal Framework**
-
    - Framework foundation
    - Implementation structure
    - Detailed frameworks
@@ -251,7 +262,6 @@ Equal emphasis on:
 ### Development Areas
 
 1. **Movement Mastery**
-
    - Pattern progression
    - Flow development
    - Technical precision
@@ -261,7 +271,6 @@ Equal emphasis on:
    - Recovery management
 
 2. **Physical Enhancement**
-
    - Multi-planar strength
    - Power building
    - Work capacity
@@ -271,7 +280,6 @@ Equal emphasis on:
    - Joint health
 
 3. **Neural Adaptation**
-
    - Mind-body connection
    - Pattern recognition
    - Problem-solving

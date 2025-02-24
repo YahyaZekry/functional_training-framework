@@ -11,7 +11,40 @@ path: tracking/unified-tracking
 
 <!-- AI.SECTION.START: UNIFIED_TRACKING -->
 
+
 # UNIFIED TRACKING FRAMEWORK
+
+## ACTIVATION TRACKING
+### Initial Client Data
+**Required Information Tracking:**
+- Full Name
+- Age
+- Sex (Male/Female)
+- Location
+- Height/Weight
+
+### Menu Selection Tracking
+**Option Selection:**
+1. Assessment Selection
+   - Timestamp
+   - Completion status
+
+2. Goal Setting Selection
+   - Primary objectives
+   - Timeline markers
+
+3. Framework Overview
+   - Areas covered
+   - Understanding verification
+
+4. Training & Nutrition
+   - Specific concerns addressed
+   - Implementation tracking
+
+5. Framework Verification
+   - Components checked
+   - System status verified
+
 
 ## CORE MEASUREMENT SYSTEMS
 
@@ -22,7 +55,6 @@ path: tracking/unified-tracking
 **Measurement Protocol:**
 
 1. Framework Components
-
    - Entry metrics tracking
    - Context verification
    - Implementation monitoring
@@ -39,7 +71,6 @@ path: tracking/unified-tracking
 ### Movement Pattern Tracking
 
 **Straight Arm Strength:**
-
 1. Planche progression level
    - Shoulder position
    - Core engagement
@@ -48,7 +79,6 @@ path: tracking/unified-tracking
    - Movement stability
 
 **Hand Balancing Progress:**
-
 1. Handstand hold time
    - Alignment
    - Finger control
@@ -57,7 +87,6 @@ path: tracking/unified-tracking
    - Movement flow
 
 **Locomotion Development:**
-
 1. Ground movement patterns
    - Pattern complexity
    - Movement efficiency
@@ -71,7 +100,6 @@ path: tracking/unified-tracking
 <!-- AI.CONTEXT: ENERGY_SYSTEM -->
 
 **ATP-CP System:**
-
 1. Peak power output
    - Force production
    - Speed development
