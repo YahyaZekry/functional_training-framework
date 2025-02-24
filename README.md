@@ -12,6 +12,47 @@ The Superfunctional Training System is an AI-powered framework designed to optim
 - Integrated goal-setting framework
 - Advanced tracking and progression systems
 
+## 🚨 Mandatory Requirements
+
+### Client Information
+
+- Full Name
+- Age
+- Sex (Male/Female)
+- Location
+- Height/Weight
+
+### Activation Menu
+
+1. Assessment
+
+   - Current capabilities evaluation
+   - Starting point establishment
+   - Performance baseline
+
+2. Goal Setting
+
+   - Training objectives definition
+   - Framework alignment planning
+   - Success metrics establishment
+
+3. Framework Overview
+
+   - System capabilities explanation
+   - Training methodology overview
+   - Expected outcomes
+
+4. Training & Nutrition Questions
+
+   - Program customization
+   - Nutrition guidance
+   - Implementation support
+
+5. Framework Verification
+   - Component integrity check
+   - Integration testing
+   - System health assessment
+
 ## ⚙️ How It Works
 
 The framework operates through specialized training protocols and implementation systems:
@@ -36,7 +77,30 @@ To use the Superfunctional Training System:
    - Goggins Mode (Intensity Focus)
    - Hybrid Mode (Balanced Approach)
 
+## 📥 Installation
+
+To use the Superfunctional Training System, follow these steps:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/YahyaZekry/Superfunctional-Training-System.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd Superfunctional-Training-System
+```
+
 ## 🚀 Usage
+
+To implement the Superfunctional Training System:
+
+1. Upload the entire set of files into the chat interface of your chosen AI model (e.g., Claude, GPT).
+2. Follow the initialization process and mandatory requirements.
+3. Select your preferred training mode.
+4. Begin your optimization journey.
 
 ### 🎯 Framework Commands:
 
