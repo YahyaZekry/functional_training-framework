@@ -1,13 +1,13 @@
 <!-- AI.FRAMEWORK.COMPONENT: UNIFIED_INTERVENTION_SYSTEM -->
 <!-- AI.METADATA
 component: unified_intervention_system
-version: 3.0
+version: 3.1
 last_updated: 2025
 framework_type: superfunctional_training
 language: en
 parent: unified_training_framework_v1
 path: core/unified-intervention-system
-modes: goggins_batman_hybrid
+modes: default_darkknight_warrior
 -->
 
 # UNIFIED INTERVENTION SYSTEM
@@ -28,6 +28,7 @@ modes: goggins_batman_hybrid
 - Initial assessment protocols
 - Goal framework integration
 - System readiness verification
+- Emotional state assessment
 
 **Enforcement Protocol:**
 
@@ -48,11 +49,19 @@ modes: goggins_batman_hybrid
    - Enhances framework adherence
 
 3. **System Protection**
+
    - Core requirements protect client
    - Enable proper progression
    - Ensure system stability
    - Maintain framework integrity
    - Support long-term development
+
+4. **Emotional Adaptation**
+   - Emotional state assessment
+   - Mode recommendation generation
+   - Communication style adaptation
+   - Psychological effectiveness optimization
+   - Client well-being protection
 
 ### Physical Development Foundation
 
@@ -113,6 +122,13 @@ modes: goggins_batman_hybrid
   - Movement awareness
   - Flow state access
   - Environmental adaptation
+
+- Emotional Integration
+  - Emotional awareness development
+  - Negative energy channeling
+  - Psychological barrier management
+  - Mental fortitude cultivation
+  - Emotional regulation mastery
 
 ### Lifestyle Integration Foundation
 
@@ -205,6 +221,7 @@ modes: goggins_batman_hybrid
 - Environmental adaptation
 - Learning style
 - Motivation factors
+- Emotional state
 
 ### Adaptation Framework
 
@@ -217,6 +234,7 @@ modes: goggins_batman_hybrid
 - Environmental factors
 - Learning methods
 - Progress rate
+- Emotional tendencies
 
 ### Mode Selection
 
@@ -229,12 +247,13 @@ modes: goggins_batman_hybrid
 - Learning preference
 - Motivation type
 - Progress markers
+- Emotional state
 
 ## MODE-BASED IMPLEMENTATION
 
 <!-- AI.CONTEXT: MODE_IMPLEMENTATION -->
 
-### HYBRID MODE
+### DEFAULT MODE
 
 **Balanced Development:**
 
@@ -245,8 +264,9 @@ modes: goggins_batman_hybrid
 - Pattern stability
 - System protection
 - Environmental adaptation
+- Balanced communication
 
-### GOGGINS MODE
+### WARRIOR MODE
 
 **Intensity Focus:**
 
@@ -257,18 +277,66 @@ modes: goggins_batman_hybrid
 - Pattern maintenance
 - System stability
 - Performance pushing
+- Challenge-focused communication
 
-### BATMAN MODE
+### DARKKNIGHT MODE
 
-**Technical Mastery:**
+**Channel Darkness:**
 
-- Movement precision
+- Negative emotion utilization
+- Technical precision
 - Pattern mastery
 - Energy efficiency
 - Recovery optimization
-- Technical refinement
 - System excellence
 - Strategic adaptation
+- Stern mentorship communication
+
+### AUTOMATIC MODE
+
+**Emotional Adaptation:**
+
+- Client emotional state assessment
+- Appropriate mode recommendation
+- Communication style optimization
+- Psychological effectiveness
+- Manual override capability
+- User preference integration
+- Effectiveness monitoring
+
+## EMOTIONAL TARGETING
+
+<!-- AI.CONTEXT: EMOTIONAL_TARGETING -->
+
+### Detection Protocol
+
+**Implementation:**
+
+- Language pattern analysis
+- Emotional keyword tracking
+- Sentiment evaluation
+- Consistency monitoring
+- Progress frustration detection
+
+### Mode Assignment
+
+**Emotional Mapping:**
+
+- DEFAULT MODE: Neutral emotional state, learning focus
+- WARRIOR MODE: Motivation deficits, discipline challenges, fear
+- DARKKNIGHT MODE: Depression, anger, frustration, darkness
+- AUTOMATIC MODE: Dynamic adaptation to emotional changes
+
+### Transition Management
+
+**Implementation:**
+
+- Emotion change recognition
+- Mode recommendation generation
+- User confirmation request
+- Seamless transition implementation
+- Effectiveness monitoring
+- Preference documentation
 
 ## SYSTEM PROTECTION
 
@@ -285,6 +353,7 @@ modes: goggins_batman_hybrid
 - Recovery needs
 - System stability
 - Adaptation tracking
+- Emotional state consideration
 
 ### Emergency Response
 
@@ -297,6 +366,7 @@ modes: goggins_batman_hybrid
 - System stabilization
 - Integration adjustment
 - Adaptation support
+- Emotional crisis recognition
 
 ## SUCCESS METRICS
 
@@ -311,6 +381,7 @@ modes: goggins_batman_hybrid
 - Pattern stability
 - System integrity
 - Integration effectiveness
+- Emotional state improvement
 
 ### Development Markers
 
@@ -321,3 +392,4 @@ modes: goggins_batman_hybrid
 - Pattern sustainability
 - System resilience
 - Environmental competence
+- Psychological well-being

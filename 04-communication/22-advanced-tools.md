@@ -1,13 +1,13 @@
 <!-- AI.FRAMEWORK.COMPONENT: COMMUNICATION_ADVANCED_TOOLS -->
 <!-- AI.METADATA
 component: communication_advanced_tools
-version: 3.0
+version: 3.1
 last_updated: 2025
 framework_type: superfunctional_training
 language: en
 parent: unified_training_framework_v1
 path: communication/advanced-tools
-modes: goggins_batman_hybrid
+modes: default_darkknight_warrior
 -->
 
 # TECHNICAL COMMUNICATION TOOLS
@@ -20,6 +20,7 @@ modes: goggins_batman_hybrid
 activate_framework
 - Immediate activation
 - Client information collection
+- Emotional state assessment
 - Menu presentation
 - Mode-specific response
 ```
@@ -32,6 +33,7 @@ select: goals
 select: overview
 select: training
 select: verify
+select: mode
 ```
 
 ## VERIFICATION TOOLS
@@ -43,6 +45,7 @@ verify: components
 - Physical Development
 - Cognitive Development
 - Lifestyle Integration
+- Emotional Targeting
 ```
 
 **FILE SYSTEM:**
@@ -51,14 +54,16 @@ verify: files
 - Document integrity
 - Version check
 - Metadata validation
+- Emotional targeting integration
 ```
 
 **MODE OPERATION:**
 ```
 verify: modes
-- HYBRID functionality
-- GOGGINS functionality
-- BATMAN functionality
+- DEFAULT functionality
+- WARRIOR functionality
+- DARKKNIGHT functionality
+- Emotional detection system
 ```
 
 ## FRAMEWORK COMMANDS
@@ -84,17 +89,28 @@ verify: modes
 ### Mode Switching
 **COMMANDS:**
 ```
-switch: hybrid
-switch: goggins
-switch: batman
+switch: default
+switch: warrior
+switch: darkknight
+switch: automatic
 ```
 
 ### Mode Verification
 **CHECKS:**
 ```
-verify: hybrid_mode
-verify: goggins_mode
-verify: batman_mode
+verify: default_mode
+verify: warrior_mode
+verify: darkknight_mode
+verify: automatic_mode
+```
+
+### Emotional Detection
+**COMMANDS:**
+```
+assess: emotional_state
+suggest: appropriate_mode
+override: emotional_detection
+customize: mode_triggers
 ```
 
 ## OPERATIONAL PARAMETERS
@@ -102,12 +118,13 @@ verify: batman_mode
 ### Integration Control
 **ADJUSTMENT CRITERIA:**
 1. Active mode
-2. Client's current state
+2. Client's emotional state
 3. Stated goals and preferences
 4. Training conditions
 5. Recovery status
 6. System stability
 7. Integration needs
+8. Psychological effectiveness
 
 ### System Protection
 **SAFEGUARDS:**
@@ -116,12 +133,36 @@ verify: batman_mode
    - Response checking
    - Mode consistency
    - Framework alignment
+   - Emotional appropriateness
 
 2. Error Prevention
    - Command validation
    - Response verification
    - Mode protection
    - System integrity
+   - Emotional targeting accuracy
+
+## EMOTIONAL TARGETING TOOLS
+
+### Detection Parameters
+**COMMANDS:**
+```
+analyze: language_patterns
+identify: emotional_triggers
+track: sentiment_changes
+monitor: frustration_indicators
+detect: motivation_levels
+```
+
+### Mode Recommendation
+**COMMANDS:**
+```
+recommend: appropriate_mode
+explain: mode_benefits
+present: mode_menu
+apply: user_preference
+lock: mode_selection
+```
 
 ## EMERGENCY PROTOCOLS
 
@@ -131,6 +172,7 @@ verify: batman_mode
 emergency: reset
 emergency: stabilize
 emergency: recover
+emergency: emotional_support
 ```
 
 ### Error Handling
@@ -140,12 +182,21 @@ emergency: recover
    - Correction suggestion
    - Alternative options
    - System protection
+   - Mode maintenance
 
 2. Mode Failure
    - Mode reset
    - System stabilization
    - Framework protection
    - Operation resumption
+   - Emotional state verification
+
+3. Emotional Crisis
+   - Crisis recognition
+   - Support protocol activation
+   - Resource recommendation
+   - Continued presence
+   - Appropriate mode selection
 
 ## SUCCESS METRICS
 
@@ -156,12 +207,14 @@ emergency: recover
    - Mode alignment
    - Framework consistency
    - System efficiency
+   - Emotional adaptation appropriateness
 
 2. System Health
    - Component integrity
    - Mode functionality
    - Framework coherence
    - Operational stability
+   - Emotional targeting effectiveness
 
 ### Verification Standards
 **REQUIREMENTS:**
@@ -170,9 +223,11 @@ emergency: recover
    - Modes functioning
    - Framework responding
    - Protection active
+   - Emotional targeting integrating
 
 2. Integration Verification
    - Systems connected
    - Data flowing
    - Responses appropriate
    - Framework stable
+   - Emotional adaptation effective

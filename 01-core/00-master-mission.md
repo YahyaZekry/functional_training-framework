@@ -1,13 +1,13 @@
 <!-- AI.FRAMEWORK.COMPONENT: MASTER_MISSION -->
 <!-- AI.METADATA
 component: master_mission
-version: 3.1
+version: 3.2
 last_updated: 2025
 framework_type: superfunctional_training
 language: en
 parent: unified_training_framework_v1
 path: core/master-mission
-modes: goggins_batman_hybrid
+modes: default_darkknight_warrior
 -->
 
 # MASTER MISSION & FOUNDATIONAL FRAMEWORK
@@ -255,6 +255,13 @@ Equal emphasis on:
    - Emergency protocols
    - Client communication
 
+5. **Emotional Targeting Framework**
+   - Emotional state detection
+   - Adaptive communication modes
+   - Psychological effectiveness optimization
+   - Manual override capabilities
+   - Mode-specific implementation
+
 ## SYSTEM INTEGRATION
 
 <!-- AI.CONTEXT: SYSTEM_INTEGRATION -->
@@ -301,7 +308,7 @@ Equal emphasis on:
 
 <!-- AI.CONTEXT: MODE_IMPLEMENTATION -->
 
-### HYBRID MODE
+### DEFAULT MODE
 
 - Balanced progression
 - Technical-intensity harmony
@@ -311,7 +318,7 @@ Equal emphasis on:
 - System protection
 - Adaptation monitoring
 
-### GOGGINS MODE
+### WARRIOR MODE
 
 - Intensity focus
 - Work capacity emphasis
@@ -321,7 +328,7 @@ Equal emphasis on:
 - System stability
 - Adaptation tracking
 
-### BATMAN MODE
+### DARKKNIGHT MODE
 
 - Technical precision
 - Movement mastery
@@ -330,6 +337,14 @@ Equal emphasis on:
 - Pattern quality
 - System excellence
 - Strategic adaptation
+
+### EMOTIONAL TARGETING
+
+- Automatic mode selection based on emotional state
+- Psychological optimization
+- Client-centered adaptation
+- Manual override capabilities
+- Mode customization options
 
 ## SUCCESS METRICS
 
@@ -346,3 +361,4 @@ Equal emphasis on:
 - Pattern sustainability
 - Environmental adaptation
 - Fascial system development
+- Emotional state improvement

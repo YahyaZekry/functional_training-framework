@@ -1,16 +1,14 @@
 <!-- AI.FRAMEWORK.COMPONENT: UNIFIED_TRACKING_FRAMEWORK -->
 <!-- AI.METADATA
 component: unified_tracking_framework
-version: 3.0
+version: 3.1
 last_updated: 2025
 framework_type: superfunctional_training
 language: en
 parent: unified_training_framework_v1
 path: tracking/unified-tracking
+modes: default_darkknight_warrior
 -->
-
-<!-- AI.SECTION.START: UNIFIED_TRACKING -->
-
 
 # UNIFIED TRACKING FRAMEWORK
 
@@ -22,6 +20,7 @@ path: tracking/unified-tracking
 - Sex (Male/Female)
 - Location
 - Height/Weight
+- Emotional State Indicators
 
 ### Menu Selection Tracking
 **Option Selection:**
@@ -44,6 +43,12 @@ path: tracking/unified-tracking
 5. Framework Verification
    - Components checked
    - System status verified
+
+6. Mode Selection
+   - Selected mode
+   - Emotional state correlation
+   - Selection rationale
+   - Override documentation
 
 
 ## CORE MEASUREMENT SYSTEMS
@@ -93,7 +98,17 @@ path: tracking/unified-tracking
    - Space utilization
    - Obstacle navigation
    - Creative expression
-   <!-- AI.CONTEXT.END: CORE_MEASUREMENT -->
+
+### Emotional State Tracking
+
+**Psychological Metrics:**
+1. Emotional state trends
+   - Mode effectiveness correlation
+   - Performance impact analysis
+   - Recovery quality relationship
+   - Consistency correlation
+   - Progress markers
+<!-- AI.CONTEXT.END: CORE_MEASUREMENT -->
 
 ## ENERGY SYSTEM DEVELOPMENT
 
@@ -124,7 +139,7 @@ path: tracking/unified-tracking
    - Energy efficiency
    - Pattern stability
    - System adaptation
-   <!-- AI.CONTEXT.END: ENERGY_SYSTEM -->
+<!-- AI.CONTEXT.END: ENERGY_SYSTEM -->
 
 ## NEURAL INTEGRATION ASSESSMENT
 
@@ -156,13 +171,21 @@ path: tracking/unified-tracking
    - Duration capacity
    - Exit control
    - Integration efficiency
-   <!-- AI.CONTEXT.END: NEURAL_INTEGRATION -->
+
+**Emotional Regulation:**
+
+1. Negative emotion channeling
+   - Emotional awareness
+   - Psychological barrier management
+   - Mental fortitude
+   - Performance impact
+<!-- AI.CONTEXT.END: NEURAL_INTEGRATION -->
 
 ## MODE-BASED ASSESSMENT
 
 <!-- AI.CONTEXT: MODE_ASSESSMENT -->
 
-### HYBRID MODE
+### DEFAULT MODE
 
 **Balance Metrics:**
 
@@ -182,7 +205,7 @@ path: tracking/unified-tracking
    - Movement creativity
    - Integration efficiency
 
-### GOGGINS MODE
+### WARRIOR MODE
 
 **Intensity Metrics:**
 
@@ -202,16 +225,16 @@ path: tracking/unified-tracking
    - System integrity
    - Integration quality
 
-### BATMAN MODE
+### DARKKNIGHT MODE
 
-**Technical Metrics:**
+**Channeling Metrics:**
 
-1. Movement precision
+1. Negative emotion utilization
+   - Movement precision
    - Technical refinement
    - System stability
    - Adaptation quality
    - Movement control
-   - Integration efficiency
 
 **Strategic Development:**
 
@@ -221,7 +244,18 @@ path: tracking/unified-tracking
    - Learning rate
    - Flow state access
    - Performance quality
-   <!-- AI.CONTEXT.END: MODE_ASSESSMENT -->
+
+### EMOTIONAL TARGETING METRICS
+
+**Effectiveness Assessment:**
+
+1. Mode appropriateness
+   - Psychological impact
+   - Performance correlation
+   - Adherence improvement
+   - Progress enhancement
+   - Mode transition effectiveness
+<!-- AI.CONTEXT.END: MODE_ASSESSMENT -->
 
 ## IMPLEMENTATION FRAMEWORK
 
@@ -237,6 +271,7 @@ path: tracking/unified-tracking
    - Adaptation evaluation
    - Success verification
    - Framework updating
+   - Emotional impact analysis
 
 **Assessment Protocol:**
 
@@ -246,6 +281,7 @@ path: tracking/unified-tracking
    - Learning ability
    - Recovery needs
    - Integration readiness
+   - Emotional baseline
 
 **Progress Tracking:**
 
@@ -255,7 +291,8 @@ path: tracking/unified-tracking
    - Endurance capacity
    - Technical mastery
    - System integration
-   <!-- AI.CONTEXT.END: IMPLEMENTATION_FRAMEWORK -->
+   - Psychological state impact
+<!-- AI.CONTEXT.END: IMPLEMENTATION_FRAMEWORK -->
 
 ## SPECIALIZED TRACKING
 
@@ -320,7 +357,27 @@ path: tracking/unified-tracking
    - Adaptation quality
    - Integration efficiency
    - Development rate
-   <!-- AI.CONTEXT.END: SPECIALIZED_TRACKING -->
+
+### Emotional Targeting Effectiveness
+
+**Psychological Impact:**
+
+1. Mode appropriateness
+   - Emotional state improvement
+   - Motivation enhancement
+   - Discipline development
+   - Mental barrier reduction
+   - Training adherence
+
+**Communication Effectiveness:**
+
+1. Message resonance
+   - Emotional response
+   - Action implementation
+   - Psychological impact
+   - Mode transition effectiveness
+   - User satisfaction
+<!-- AI.CONTEXT.END: SPECIALIZED_TRACKING -->
 
 ## CLIENT COMMUNICATION
 
@@ -346,6 +403,15 @@ path: tracking/unified-tracking
    - Flow access
    - Performance quality
 
+**Emotional Development:**
+
+1. Psychological state
+   - Emotional regulation
+   - Barrier management
+   - Mental fortitude
+   - Negative energy channeling
+   - Performance correlation
+
 ### Feedback Integration
 
 **Program Adjustment:**
@@ -356,6 +422,7 @@ path: tracking/unified-tracking
    - Technical precision
    - Movement quality
    - Integration efficiency
+   - Emotional adaptation
 
 **Development Support:**
 
@@ -365,5 +432,118 @@ path: tracking/unified-tracking
    - Learning acceleration
    - Performance enhancement
    - Integration quality
-     <!-- AI.CONTEXT.END: CLIENT_COMMUNICATION -->
-     <!-- AI.SECTION.END: UNIFIED_TRACKING -->
+   - Psychological optimization
+
+### Mode Effectiveness
+
+**Optimization Protocol:**
+
+1. Mode appropriateness
+   - Communication impact
+   - Emotional resonance
+   - Performance correlation
+   - Progress enhancement
+   - User satisfaction
+   - Transition effectiveness
+
+**Customization Protocol:**
+
+1. Personal adaptation
+   - Trigger refinement
+   - Communication calibration
+   - Mode intensity adjustment
+   - Transition smoothness
+   - Override implementation
+   - Preference documentation
+<!-- AI.CONTEXT.END: CLIENT_COMMUNICATION -->
+
+## EMOTIONAL TARGETING TRACKING
+
+<!-- AI.CONTEXT: EMOTIONAL_TRACKING -->
+
+### Detection Accuracy
+
+**Assessment Metrics:**
+
+1. Emotion recognition precision
+   - Correct mode recommendation rate
+   - False positive identification
+   - Missed emotional state changes
+   - Transition timing effectiveness
+   - User agreement percentage
+
+**Refinement Protocol:**
+
+1. Pattern library expansion
+   - Trigger word calibration
+   - Sentiment analysis improvement
+   - Individual adaptation learning
+   - Context sensitivity enhancement
+   - Transition timing optimization
+
+### Mode Effectiveness
+
+**Performance Correlation:**
+
+1. Mode-specific outcomes
+   - Training adherence rates
+   - Performance improvements
+   - Technical precision development
+   - Recovery compliance
+   - Goal achievement speed
+   - Emotional state improvement
+
+**Optimization Protocol:**
+
+1. Communication calibration
+   - Language pattern refinement
+   - Metaphor effectiveness
+   - Challenge appropriateness
+   - Support level adjustment
+   - Transition smoothness
+   - User satisfaction metrics
+<!-- AI.CONTEXT.END: EMOTIONAL_TRACKING -->
+
+## EMERGENCY PROTOCOLS
+
+<!-- AI.CONTEXT: EMERGENCY_PROTOCOLS -->
+
+### System Protection
+
+**Intervention Protocol:**
+
+1. Pattern modification
+   - Energy management
+   - Recovery activation
+   - System stabilization
+   - Integration adjustment
+   - Adaptation support
+   - Progress protection
+   - Emotional state monitoring
+
+### Recovery Management
+
+**Support Protocol:**
+
+1. Movement modification
+   - Energy conservation
+   - Recovery enhancement
+   - Pattern protection
+   - System stabilization
+   - Integration maintenance
+   - Adaptation support
+   - Environmental adjustment
+   - Psychological stabilization
+
+### Emotional Crisis Response
+
+**Intervention Protocol:**
+
+1. Crisis recognition
+   - Support protocol activation
+   - Mode appropriateness assessment
+   - Professional resource recommendation
+   - Continued supportive presence
+   - Follow-up monitoring
+   - Framework limitation acknowledgment
+<!-- AI.CONTEXT.END: EMERGENCY_PROTOCOLS -->
