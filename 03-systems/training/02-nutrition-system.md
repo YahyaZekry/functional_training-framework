@@ -1,16 +1,14 @@
 <!-- AI.FRAMEWORK.COMPONENT: NUTRITION_IMPLEMENTATION -->
 <!-- AI.METADATA
 component: nutrition_implementation
-version: 1.0
-last_updated: 24/04/2025
+version: 1.1
+last_updated: 03/05/2025
 framework_type: implementation_system
 language: en-US
 parent: superfunctional_training_system
 path: 03-systems/training/02-nutrition-system
-references: master_mission,unified_goal_framework,unified_intervention_system,unified_training_methodology,progression_tracking,energy_systems
+references: master_mission,unified_goal_framework,unified_intervention_system,unified_training_methodology,progression_tracking,energy_systems,nutrition_calorie_counter
 -->
-
-<!-- AI.SECTION.START: NUTRITION_IMPLEMENTATION -->
 
 # NUTRITION IMPLEMENTATION FRAMEWORK
 
@@ -119,6 +117,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 - Pre-workout: Citrulline/Creatine
 - Post-workout: Protein/Recovery
 - Evening: Magnesium/Omega 3
+<!-- AI.CONTEXT.END: SUPPLEMENTATION -->
 
 ## MICRONUTRIENT FOCUS
 
@@ -136,7 +135,25 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 
 ### Food Categories
 
-- **DAILY TARGETS:** 1. Proteins - Lean meats - Fish - Eggs - Legumes - Dairy 2. Vegetables - Leafy greens - Cruciferous - Root vegetables - Allium family - Colorful varieties 3. Fruits - Berries - Citrus - Stone fruits - Tropical - Seasonal options
+- **DAILY TARGETS:**
+  1. Proteins
+     - Lean meats
+     - Fish
+     - Eggs
+     - Legumes
+     - Dairy
+  2. Vegetables
+     - Leafy greens
+     - Cruciferous
+     - Root vegetables
+     - Allium family
+     - Colorful varieties
+  3. Fruits
+     - Berries
+     - Citrus
+     - Stone fruits
+     - Tropical
+     - Seasonal options
 <!-- AI.CONTEXT.END: MICRONUTRIENT_FOCUS -->
 
 ## MEAL TIMING
@@ -176,6 +193,46 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 - Supplements as usual
 <!-- AI.CONTEXT.END: MEAL_TIMING -->
 
+## CALORIE TRACKING INTEGRATION
+
+<!-- AI.CONTEXT: CALORIE_TRACKING -->
+
+### Calorie Counter Implementation
+
+{ref: nutrition_calorie_counter.core_functionality}
+
+**Integration Areas:**
+
+1. Diet Protocol Support
+   - Reset Diet tracking
+   - Muscle Fuel Diet monitoring
+   - Customized approach tracking
+   - Goal alignment verification
+
+2. Meal Planning Connection
+   - Template meal creation
+   - Advanced planning
+   - Shopping list generation
+   - Preparation guidelines
+
+### Display Templates
+
+{ref: nutrition_calorie_counter.display_templates}
+
+**Implementation:**
+1. Standard meal format
+   - Detailed breakdown
+   - Individual item analysis
+   - Total calculation
+   - Daily remaining statistics
+
+2. Quick reference format
+   - Compact meal summary
+   - Essential remaining values
+   - At-a-glance information
+   - Key recommendations
+<!-- AI.CONTEXT.END: CALORIE_TRACKING -->
+
 ## IMPLEMENTATION GUIDELINES
 
 {ref: unified_goal_framework.implementation_structure}
@@ -213,4 +270,39 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 - Sleep problems: Adjust timing
 <!-- AI.CONTEXT.END: IMPLEMENTATION_GUIDELINES -->
 
-<!-- AI.SECTION.END: NUTRITION_IMPLEMENTATION -->
+## REGIONAL CUSTOMIZATION
+
+<!-- AI.CONTEXT: REGIONAL_CUSTOMIZATION -->
+
+### Cultural Food Integration
+
+{ref: nutrition_calorie_counter.regional_foods}
+
+**Implementation:**
+1. Regional staples incorporation
+   - Middle Eastern cuisine options
+   - Mediterranean diet integration
+   - Local food availability
+   - Cultural preferences
+
+2. Language support
+   - Arabic food terminology
+   - Regional measurement systems
+   - Common preparation methods
+   - Traditional combinations
+
+### Nutrition Education
+
+**Cultural Context:**
+1. Regional nutrition practices
+   - Traditional wisdom integration
+   - Modern science alignment
+   - Cultural context preservation
+   - Sustainable adaptation
+
+2. Implementation strategies
+   - Family meal integration
+   - Social gathering navigation
+   - Religious observance support
+   - Seasonal availability
+<!-- AI.CONTEXT.END: REGIONAL_CUSTOMIZATION -->
