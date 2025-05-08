@@ -2,7 +2,7 @@
 
 ## 📝 Description
 
-The Superfunctional Training System (SFT) is an AI-powered framework designed to optimize human performance through integrated physical, cognitive, and lifestyle development. It leverages advanced AI models to provide comprehensive, adaptive training guidance using a triple-integration approach: Physical Mastery, Cognitive Enhancement, and Lifestyle Implementation. This version incorporates significant enhancements based on coherence analysis and roadmap development.
+The Superfunctional Training System (SFT) is an AI-powered framework designed to optimize human performance through integrated physical, cognitive, and lifestyle development. Inspired by the methodology of Adam Sinicki ([The Bioneer](https://www.youtube.com/@TheBioneer)) , it leverages advanced AI models to provide comprehensive, adaptive training guidance using a triple-integration approach: Physical Mastery, Cognitive Enhancement, and Lifestyle Implementation. This version incorporates significant enhancements based on coherence analysis and roadmap development.
 
 ## ✨ Features
 
@@ -81,7 +81,7 @@ The framework operates through specialized training protocols and implementation
 - **`03-systems/implementation/`**: Practical integration guides, regional settings, tracking implementation.
 - **`03-systems/training/`**: Detailed Workout System (by Level), Nutrition, Brain Training, Lifestyle, Recovery, Calorie Counter, Integration Maps.
 - **`04-protocols/communication/`**: Base protocol, advanced tools, persona definitions, mode quick reference.
-- **`04-protocols/programs/`**: High-level templates (Workouts, Lifestyle), Progression Models, Periodization, Level Transitions, Movement Assessment/Correctives. (Note: `03-recovery-protocols.md` is deprecated).
+- **`04-protocols/programs/`**: High-level templates (`01`), lifestyle examples (`02`), progression models (`03`), periodization (`04`), level transitions (`05`), movement assessment (`06`). (Note: Original `03-recovery-protocols.md` deleted).
 - **`05-enhancements/`**: Specific protocols for Neuromuscular Integration, Demographic Adaptations, and Technology Integration (Phase 3).
 
 ## 🚀 Usage
@@ -172,3 +172,14 @@ For optimal results:
 3.  Set regional preferences if desired.
 4.  Implement training progressively based on SFT Levels and Periodization/Auto-regulation.
 5.  Monitor progress using tracking metrics and adjust as needed with AI guidance.
+
+---
+
+📄 License
+
+This project is licensed under the Prosperity Public License 3.0.0.
+Commercial use requires a paid license. Contact yahyazekry@gmail.com for details.
+
+---
+
+Built on late nights 🌙, bright ideas 💡, and a concerning relationship with yerba mate 🧉

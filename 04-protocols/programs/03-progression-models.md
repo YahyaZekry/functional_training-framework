@@ -6,7 +6,7 @@ last_updated: 08/05/2025
 framework_type: program_system
 language: en-US
 parent: superfunctional_training_system
-path: 04-protocols/programs/04-progression-models.md
+path: 04-protocols/programs/03-progression-models.md
 references: ["master_mission", "unified_goal_framework", "unified_intervention_system", "unified_training_methodology", "progression_tracking", "movement_culture", "energy_systems", "00-framework-glossary.md"]
 modes: ["default", "darkknight", "warrior"]
 -->

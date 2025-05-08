@@ -6,7 +6,7 @@ last_updated: 08/05/2025
 framework_type: program_system
 language: en-US
 parent: superfunctional_training_system
-path: 04-protocols/programs/05-periodization-strategies.md
+path: 04-protocols/programs/04-periodization-strategies.md
 references: ["master_mission", "progression_tracking", "recovery_implementation", "programs_progression_models", "framework_glossary", "practical_implementation"]
 ai_optimization: ["long_term_planning", "training_cycle_management", "adaptive_programming", "performance_optimization", "auto_regulation"]
 complexity_level: 4
