@@ -1,13 +1,13 @@
 <!-- AI.FRAMEWORK.COMPONENT: NUTRITION_IMPLEMENTATION -->
 <!-- AI.METADATA
 component: nutrition_implementation
-version: 1.1
-last_updated: 03/05/2025
+version: 1.2
+last_updated: 08/05/2025
 framework_type: implementation_system
 language: en-US
 parent: superfunctional_training_system
-path: 03-systems/training/02-nutrition-system
-references: master_mission,unified_goal_framework,unified_intervention_system,unified_training_methodology,progression_tracking,energy_systems,nutrition_calorie_counter
+path: 03-systems/training/02-nutrition-system.md
+references: ["master_mission", "unified_goal_framework", "unified_intervention_system", "unified_training_methodology", "progression_tracking", "foundation_energy_systems", "nutrition_calorie_counter", "framework_glossary", "recovery_implementation"]
 -->
 
 # NUTRITION IMPLEMENTATION FRAMEWORK
@@ -106,7 +106,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Lutein
       - Curcumin
 
-  4.  Recover
+  4.  Recover (See component: recovery_implementation)
       - Protein powder
       - Recovery aminos
       - Electrolytes
@@ -115,7 +115,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 
 - Morning: Vitamins D/C
 - Pre-workout: Citrulline/Creatine
-- Post-workout: Protein/Recovery
+- Post-workout: Protein/Recovery (See component: recovery_implementation)
 - Evening: Magnesium/Omega 3
 <!-- AI.CONTEXT.END: SUPPLEMENTATION -->
 
@@ -148,13 +148,8 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
      - Root vegetables
      - Allium family
      - Colorful varieties
-  3. Fruits
-     - Berries
-     - Citrus
-     - Stone fruits
-     - Tropical
-     - Seasonal options
-<!-- AI.CONTEXT.END: MICRONUTRIENT_FOCUS -->
+  3. Fruits - Berries - Citrus - Stone fruits - Tropical - Seasonal options
+  <!-- AI.CONTEXT.END: MICRONUTRIENT_FOCUS -->
 
 ## MEAL TIMING
 
@@ -182,6 +177,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 - Immediate: Protein/fast carbs
 - 1-2 hours: Full meal
 - Evening: Slow proteins
+- (See component: recovery_implementation for post-workout recovery nutrition principles)
 
 ### Rest Days
 
@@ -191,6 +187,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 - Midday: Balanced meal
 - Evening: Carb inclusion
 - Supplements as usual
+- (Focus on nutrition to support recovery - See component: recovery_implementation)
 <!-- AI.CONTEXT.END: MEAL_TIMING -->
 
 ## CALORIE TRACKING INTEGRATION
@@ -204,6 +201,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 **Integration Areas:**
 
 1. Diet Protocol Support
+
    - Reset Diet tracking
    - Muscle Fuel Diet monitoring
    - Customized approach tracking
@@ -220,7 +218,9 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 {ref: nutrition_calorie_counter.display_templates}
 
 **Implementation:**
+
 1. Standard meal format
+
    - Detailed breakdown
    - Individual item analysis
    - Total calculation
@@ -231,7 +231,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
    - Essential remaining values
    - At-a-glance information
    - Key recommendations
-<!-- AI.CONTEXT.END: CALORIE_TRACKING -->
+   <!-- AI.CONTEXT.END: CALORIE_TRACKING -->
 
 ## IMPLEMENTATION GUIDELINES
 
@@ -247,7 +247,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 - Track energy levels
 - Note training performance
 - Record sleep quality
-- Assess recovery rate
+- Assess recovery rate (See component: recovery_implementation)
 
 ### Adaptation Guidelines
 
@@ -264,10 +264,10 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 **RESPONSES:**
 
 - Energy dips: Increase carbs
-- Poor recovery: Boost protein
+- Poor recovery: Boost protein (Also review component: recovery_implementation)
 - Low focus: Add healthy fats
 - Digestive issues: Simplify diet
-- Sleep problems: Adjust timing
+- Sleep problems: Adjust timing (Also review component: recovery_implementation - Sleep Protocol)
 <!-- AI.CONTEXT.END: IMPLEMENTATION_GUIDELINES -->
 
 ## REGIONAL CUSTOMIZATION
@@ -279,7 +279,9 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 {ref: nutrition_calorie_counter.regional_foods}
 
 **Implementation:**
+
 1. Regional staples incorporation
+
    - Middle Eastern cuisine options
    - Mediterranean diet integration
    - Local food availability
@@ -294,7 +296,9 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 ### Nutrition Education
 
 **Cultural Context:**
+
 1. Regional nutrition practices
+
    - Traditional wisdom integration
    - Modern science alignment
    - Cultural context preservation
@@ -305,4 +309,4 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
    - Social gathering navigation
    - Religious observance support
    - Seasonal availability
-<!-- AI.CONTEXT.END: REGIONAL_CUSTOMIZATION -->
+   <!-- AI.CONTEXT.END: REGIONAL_CUSTOMIZATION -->

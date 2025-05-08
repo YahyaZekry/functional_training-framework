@@ -1,13 +1,13 @@
 <!-- AI.FRAMEWORK.COMPONENT: FOUNDATION_NEURAL_PHYSICAL_HARMONY -->
 <!-- AI.METADATA
 component: foundation_neural_physical_harmony
-version: 1.0
-last_updated: 24/04/2025
+version: 1.1
+last_updated: 08/05/2025
 framework_type: foundation_system
 language: en-US
 parent: superfunctional_training_system
-path: 02-foundation/03-neural-physical-harmony
-references: master_mission,unified_training_methodology,unified_intervention_system,superfunctional_principles
+path: 02-foundation/03-neural-physical-harmony.md
+references: ["master_mission", "unified_training_methodology", "unified_intervention_system", "superfunctional_principles", "framework_glossary", "recovery_implementation", "brain_physical_integration_map"]
 -->
 
 # NEURAL-PHYSICAL HARMONY FOUNDATION
@@ -185,11 +185,11 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 - Technical demands
 - Integration requirements
 - System stability
-- Recovery needs
+- Recovery needs (See component: recovery_implementation)
 - Adaptation tracking
 - Progress protection
 
-### Recovery Protocols
+### Recovery Protocols (See component: recovery_implementation for details)
 
 - Neural restoration
 - Pattern stabilization

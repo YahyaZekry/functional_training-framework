@@ -1,13 +1,13 @@
 <!-- AI.FRAMEWORK.COMPONENT: SUPERFUNCTIONAL_PRINCIPLES -->
 <!-- AI.METADATA
 component: superfunctional_principles
-version: 3.0
-last_updated: 24/04/2025
+version: 3.2
+last_updated: 08/05/2025
 framework_type: core_principles
 language: en-US
 parent: superfunctional_training_system
-path: 01-core/04-superfunctional-principles
-references: master_mission,unified_goal_framework,unified_intervention_system,unified_training_methodology,progression_tracking,persona_definitions
+path: 01-core/04-superfunctional-principles.md
+references: ["master_mission", "unified_goal_framework", "unified_intervention_system", "unified_training_methodology", "progression_tracking", "persona_framework", "framework_glossary", "recovery_implementation"]
 -->
 
 <!-- AI.SECTION.START: SUPERFUNCTIONAL_PRINCIPLES -->
@@ -28,7 +28,8 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 - Neural-physical harmony
 - Movement as self-expression
 - Fascial system development
-- Recovery optimization
+- Recovery optimization (See component: recovery_implementation)
+- **Anti-Specialization:** Develop broad competence across multiple domains (strength, endurance, mobility, skill, cognition) rather than maximizing performance in a narrow area, fostering overall resilience and adaptability.
 
 ### Training Components
 
@@ -54,8 +55,15 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
    - Proprioceptive development
    - Learning acceleration
 
-3. **Energy Systems** - ATP-CP system development - Glycolytic capacity building - Aerobic base enhancement - Work capacity development - Recovery optimization - Metabolic conditioning - System protection
-<!-- AI.CONTEXT.END: CORE_CONCEPTS -->
+3. **Energy Systems**
+   - ATP-CP system development
+   - Glycolytic capacity building
+   - Aerobic base enhancement
+   - Work capacity development
+   - Recovery optimization (See component: recovery_implementation)
+   - Metabolic conditioning
+   - System protection (See component: recovery_implementation)
+   <!-- AI.CONTEXT.END: CORE_CONCEPTS -->
 
 ## IMPLEMENTATION FRAMEWORKS
 
@@ -81,7 +89,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 - Skill practice frequency
 - Energy system development
 - Neural pattern reinforcement
-- Recovery management
+- Recovery management (See component: recovery_implementation)
 - Environmental engagement
 - Movement exploration
 
@@ -95,7 +103,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 - Space utilization
 - Safety consideration
 - Adaptation enhancement
-- Recovery integration
+- Recovery integration (See component: recovery_implementation)
 <!-- AI.CONTEXT.END: IMPLEMENTATION_FRAMEWORKS -->
 
 ## SYSTEM PROTECTION
@@ -112,7 +120,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
   - Energy management
   - Sleep optimization
   - Nutrition timing
-  - Fascial recovery
+  - Fascial recovery (See component: recovery_implementation)
   - Movement restoration
 
 ### Progression Management
@@ -122,7 +130,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
   - Intensity scaling
   - Skill development pacing
   - Pattern complexity progression
-  - Recovery need assessment
+  - Recovery need assessment (See component: recovery_implementation)
   - System stability monitoring
   - Adaptation tracking
   <!-- AI.CONTEXT.END: SYSTEM_PROTECTION -->
@@ -141,7 +149,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
    - Environmental adaptation
    - Skill integration
    - Fascial development
-   - Recovery optimization
+   - Recovery optimization (See component: recovery_implementation)
 
 2. **Strength Integration**
    - Multi-planar development
@@ -149,7 +157,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
    - Grip enhancement
    - Power production
    - Movement control
-   - System protection
+   - System protection (See component: recovery_implementation)
    - Pattern sustainability
 
 ### Energy System Development
@@ -159,19 +167,19 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
    - ATP-CP system training
    - Glycolytic system development
    - Aerobic base building
-   - Recovery optimization
+   - Recovery optimization (See component: recovery_implementation)
    - Energy management
-   - System protection
+   - System protection (See component: recovery_implementation)
    - Output enhancement
 
 2. **Metabolic Conditioning**
    - Circuit design
    - Intensity management
    - Volume progression
-   - Recovery integration
+   - Recovery integration (See component: recovery_implementation)
    - Adaptation monitoring
    - Pattern stability
-   - System protection
+   - System protection (See component: recovery_implementation)
 
 ### Neural Enhancement
 
@@ -207,15 +215,15 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
    - Skill development
    - Strength work
    - Conditioning
-   - Recovery integration
+   - Recovery integration (See component: recovery_implementation)
    - Pattern sustainability
-   - System protection
+   - System protection (See component: recovery_implementation)
 
 2. **Progression Planning**
    - Volume management
    - Intensity scaling
    - Pattern complexity
-   - Recovery needs
+   - Recovery needs (See component: recovery_implementation)
    - Adaptation monitoring
    - System stability
    - Environmental integration
@@ -229,13 +237,13 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
    - Nutrition timing
    - Energy management
    - Adaptation monitoring
-   - Fascial recovery
+   - Fascial recovery (See component: recovery_implementation)
    - Pattern maintenance
 
 2. **Injury Prevention**
    - Movement quality
    - Load management
-   - Recovery needs
+   - Recovery needs (See component: recovery_implementation)
    - Pattern sustainability
    - Environmental safety
    - System stability

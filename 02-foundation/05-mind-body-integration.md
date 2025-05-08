@@ -1,13 +1,13 @@
 <!-- AI.FRAMEWORK.COMPONENT: FOUNDATION_MIND_BODY_INTEGRATION -->
 <!-- AI.METADATA
 component: foundation_mind_body_integration
-version: 1.0
-last_updated: 24/04/2025
+version: 1.1
+last_updated: 08/05/2025
 framework_type: foundation_system
 language: en-US
 parent: superfunctional_training_system
-path: 02-foundation/05-mind-body-integration
-references: master_mission,unified_training_methodology,unified_intervention_system,superfunctional_principles,emotional_targeting_framework
+path: 02-foundation/05-mind-body-integration.md
+references: ["master_mission", "unified_training_methodology", "unified_intervention_system", "superfunctional_principles", "emotional_targeting_framework", "framework_glossary", "recovery_implementation"]
 -->
 
 # MIND-BODY INTEGRATION FOUNDATION
@@ -26,7 +26,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 - Flow state development
 - Stress response control
 - Energy system optimization
-- Recovery integration
+- Recovery integration (See component: recovery_implementation)
 
 ### Physiological States
 
@@ -34,7 +34,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 - Rest-and-digest state
 - Chronic stress management
 - Energy system balance
-- Recovery optimization
+- Recovery optimization (See component: recovery_implementation)
 - System protection
 - Performance enhancement
 <!-- AI.CONTEXT.END: CORE_PRINCIPLES -->
@@ -52,14 +52,14 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 - Focus enhancement
 - State optimization
 - Energy management
-- Recovery integration
+- Recovery integration (See component: recovery_implementation)
 - Performance enhancement
 
 ### Physical State Control
 
 - Movement quality
 - Energy efficiency
-- Recovery optimization
+- Recovery optimization (See component: recovery_implementation)
 - Pattern stability
 - System protection
 - Integration enhancement
@@ -69,7 +69,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 
 - Mode switching
 - Energy management
-- Recovery integration
+- Recovery integration (See component: recovery_implementation)
 - Pattern stability
 - System protection
 - Performance optimization
@@ -85,7 +85,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 - Interoceptive awareness
 - Movement control
 - Energy management
-- Recovery optimization
+- Recovery optimization (See component: recovery_implementation)
 - Pattern stability
 - System protection
 - Performance enhancement
@@ -121,7 +121,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 
 - State control
 - Energy management
-- Recovery optimization
+- Recovery optimization (See component: recovery_implementation)
 - Pattern stability
 - System protection
 - Performance enhancement
@@ -133,7 +133,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 - Focus enhancement
 - State optimization
 - Energy management
-- Recovery integration
+- Recovery integration (See component: recovery_implementation)
 - System protection
 - Performance enhancement
 
@@ -156,7 +156,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 
 - State optimization
 - Energy management
-- Recovery integration
+- Recovery integration (See component: recovery_implementation)
 - Pattern stability
 - System protection
 - Integration efficiency
@@ -166,7 +166,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 
 - Response control
 - Energy optimization
-- Recovery enhancement
+- Recovery enhancement (See component: recovery_implementation)
 - Pattern stability
 - System protection
 - Integration efficiency
@@ -193,7 +193,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 
 - State monitoring
 - Energy management
-- Recovery optimization
+- Recovery optimization (See component: recovery_implementation)
 - Pattern stability
 - System protection
 - Integration efficiency
@@ -203,7 +203,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 
 - State modification
 - Energy management
-- Recovery activation
+- Recovery activation (See component: recovery_implementation)
 - System stabilization
 - Integration adjustment
 - Performance protection
@@ -218,7 +218,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 
 - State control
 - Energy efficiency
-- Recovery quality
+- Recovery quality (See component: recovery_implementation)
 - Pattern stability
 - System integration
 - Adaptation rate

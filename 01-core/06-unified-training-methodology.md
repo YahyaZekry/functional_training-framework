@@ -1,13 +1,13 @@
 <!-- AI.FRAMEWORK.COMPONENT: UNIFIED_TRAINING_METHODOLOGY -->
 <!-- AI.METADATA
 component: unified_training_methodology
-version: 3.0
-last_updated: 24/04/2025
+version: 3.1
+last_updated: 08/05/2025
 framework_type: training_methodology
 language: en-US
 parent: superfunctional_training_system
-path: 01-core/06-unified-training-methodology
-references: master_mission,unified_goal_framework,unified_intervention_system,progression_tracking,persona_definitions,superfunctional_principles
+path: 01-core/06-unified-training-methodology.md
+references: ["master_mission", "unified_goal_framework", "unified_intervention_system", "progression_tracking", "persona_framework", "superfunctional_principles", "framework_glossary", "recovery_implementation"]
 -->
 
 # UNIFIED TRAINING METHODOLOGY
@@ -65,7 +65,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,pr
 - Glycolytic system (10sec-3min)
 - Aerobic system (3min+)
 - Work capacity optimization
-- Recovery management
+- Recovery management (See component: recovery_implementation for protocols)
 - System protection
 - Output enhancement
 
@@ -86,7 +86,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,pr
 
 <!-- AI.CONTEXT: MODE_IMPLEMENTATION -->
 
-### HYBRID MODE Implementation
+### DEFAULT MODE Implementation
 
 {ref: persona_definitions.default_mode}
 
@@ -100,7 +100,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,pr
 - System protection
 - Integration efficiency
 
-### GOGGINS MODE Implementation
+### WARRIOR MODE Implementation
 
 {ref: persona_definitions.warrior_mode}
 
@@ -114,7 +114,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,pr
 - System monitoring
 - Adaptation tracking
 
-### BATMAN MODE Implementation
+### DARKKNIGHT MODE Implementation
 
 {ref: persona_definitions.darkknight_mode}
 
@@ -141,7 +141,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,pr
 - Height exposure
 - Tool utilization
 - Pattern adaptation
-- Recovery consideration
+- Recovery consideration (See component: recovery_implementation)
 - System protection
 - Integration efficiency
 
@@ -153,7 +153,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,pr
 - Pattern recognition
 - Environmental awareness
 - Energy management
-- Recovery integration
+- Recovery integration (See component: recovery_implementation)
 - System stability
 - Adaptation quality
 <!-- AI.CONTEXT.END: SPECIALIZED_APPLICATIONS -->
@@ -182,7 +182,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,pr
 - Fascial conditioning
 - Movement patterning
 - Energy management
-- Recovery integration
+- Recovery integration (See component: recovery_implementation)
 - System protection
 - Pattern sustainability
 <!-- AI.CONTEXT.END: SAFETY_PROTOCOLS -->
@@ -196,7 +196,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,pr
 - Movement opportunity creation
 - Energy system development
 - Skill practice frequency
-- Recovery management
+- Recovery management (See component: recovery_implementation)
 - Pattern sustainability
 - System protection
 - Integration efficiency
@@ -206,7 +206,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,pr
 - Movement spaces
 - Equipment placement
 - Adaptation opportunities
-- Recovery areas
+- Recovery areas (See component: recovery_implementation)
 - System support
 - Integration zones
 - Progress tracking

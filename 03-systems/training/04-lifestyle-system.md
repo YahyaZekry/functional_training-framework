@@ -1,13 +1,13 @@
-<!-- AI.FRAMEWORK.COMPONENT: LIFESTYLE_IMPLEMENTATION -->
+<!-- AI.FRAMEWORK.COMPONENT: LIFESTYLE_SYSTEM -->
 <!-- AI.METADATA
-component: lifestyle_implementation
-version: 1.0
-last_updated: 24/04/2025
+component: lifestyle_system
+version: 1.2
+last_updated: 08/05/2025
 framework_type: implementation_system
 language: en-US
 parent: superfunctional_training_system
-path: 03-systems/training/04-lifestyle-system
-references: master_mission,unified_goal_framework,unified_intervention_system,unified_training_methodology,mind_body_integration,environmental_adaptation
+path: 03-systems/training/04-lifestyle-system.md
+references: ["master_mission", "unified_goal_framework", "unified_intervention_system", "unified_training_methodology", "foundation_mind_body_integration", "foundation_environmental_adaptation", "framework_glossary", "recovery_implementation"]
 -->
 
 <!-- AI.SECTION.START: LIFESTYLE_IMPLEMENTATION -->
@@ -54,7 +54,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 
    - Mindful movement
    - Barefoot when safe
-   - Variable terrain
+   - Variable terrain (See component: foundation_environmental_adaptation)
    - Natural environments
    - Regular intervals
 
@@ -84,7 +84,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
    - Mirror access
    - Good ventilation
 
-2. Recovery Zone
+2. Recovery Zone (See component: recovery_implementation)
    - Meditation space
    - Relaxation area
    - Quiet environment
@@ -110,6 +110,15 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
    - Practice spaces
    - Safety considerations
    <!-- AI.CONTEXT.END: ENVIRONMENTAL_OPTIMIZATION -->
+
+<!-- AI.CONTEXT: EnvironmentalAdaptationIntegration -->
+
+### Environmental Adaptation Integration
+
+- Actively seek opportunities to interact with varied environments as part of lifestyle integration.
+- **Examples:** Take walks/runs on different terrains (trails, sand, hills), practice balance on uneven surfaces (curbs, logs - safely), expose yourself to varied weather conditions (within safe limits), utilize park benches/walls for incidental exercises.
+- **Goal:** Enhance adaptability, proprioception, and resilience by treating the everyday environment as a training ground. (See component: `foundation_environmental_adaptation` for core concepts).
+<!-- AI.CONTEXT.END: EnvironmentalAdaptationIntegration -->
 
 ## DAILY ROUTINES
 
@@ -145,10 +154,10 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
    - Light reduction
    - Temperature control
    - Stress management
-   - Recovery practice
+   - Recovery practice (See component: recovery_implementation)
    - Mental relaxation
 
-2. Recovery
+2. Recovery (See component: recovery_implementation)
    - Mobility work
    - Light stretching
    - Breathing practice
@@ -196,7 +205,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
    - Learning integration
    - Skill development
    - State management
-   - Recovery periods
+   - Recovery periods (See component: recovery_implementation)
    <!-- AI.CONTEXT.END: WORK_INTEGRATION -->
 
 ## SOCIAL INTEGRATION
@@ -217,7 +226,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 
 2. Schedule Management
    - Training time
-   - Recovery periods
+   - Recovery periods (See component: recovery_implementation)
    - Family time
    - Balance maintenance
    - Regular assessment
@@ -242,7 +251,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
    - Regular assessment
    <!-- AI.CONTEXT.END: SOCIAL_INTEGRATION -->
 
-## RECOVERY OPTIMIZATION
+## RECOVERY OPTIMIZATION (See component: recovery_implementation for full details)
 
 <!-- AI.CONTEXT: RECOVERY_OPTIMIZATION -->
 
@@ -299,7 +308,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 
    - Movement quality
    - Energy levels
-   - Recovery status
+   - Recovery status (See component: recovery_implementation)
    - Performance markers
    - Health indicators
 
@@ -327,12 +336,12 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
    - Regular review
    - Progress tracking
    - Challenge evaluation
-   - Recovery status
+   - Recovery status (See component: recovery_implementation)
    - Integration quality
 
 2. Adjustment
    - Program modification
-   - Recovery adaptation
+   - Recovery adaptation (See component: recovery_implementation)
    - Schedule updates
    - Balance maintenance
    - Progress optimization

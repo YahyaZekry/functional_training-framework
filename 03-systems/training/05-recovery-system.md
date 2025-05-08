@@ -1,13 +1,13 @@
 <!-- AI.FRAMEWORK.COMPONENT: RECOVERY_IMPLEMENTATION -->
 <!-- AI.METADATA
 component: recovery_implementation
-version: 1.0
-last_updated: 24/04/2025
+version: 1.1
+last_updated: 08/05/2025
 framework_type: implementation_system
 language: en-US
 parent: superfunctional_training_system
-path: 03-systems/training/05-recovery-system
-references: master_mission,unified_goal_framework,unified_intervention_system,unified_training_methodology,mind_body_integration,workout_implementation,nutrition_implementation
+path: 03-systems/training/05-recovery-system.md
+references: ["01-core/01-master-mission.md", "01-core/05-unified-goal-framework.md", "01-core/02-unified-intervention-levels.md", "01-core/06-unified-training-methodology.md", "02-foundation/05-mind-body-integration.md", "03-systems/training/01-workout-system.md", "03-systems/training/02-nutrition-system.md", "00-framework-glossary.md"]
 -->
 
 # RECOVERY IMPLEMENTATION FRAMEWORK
@@ -58,6 +58,51 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
    - Maintain pump focus with 50% load
    - Keep movement quality high
    - See nutrition-implementation.md for nutrient timing
+
+### Level 2: Power Recovery Focus
+
+**IMPLEMENTATION:**
+
+1. Timing
+
+   - After power training cycles (approx. 4-6 weeks)
+   - When CNS fatigue indicators appear (e.g., reduced explosiveness, motivation drop)
+   - Preceding a peak performance attempt
+   - See workout-implementation.md Section 3
+
+2. Load Management
+
+   - Reduce working weights on main lifts (Deadlift, Bench, Squat) by 40-50% (e.g., work with 40-50% 1RM instead of 80-90%).
+   - Reduce working sets by 1-2 sets per exercise.
+   - Maintain explosive intent on concentric phase but prioritize smooth control.
+
+3. Recovery Focus
+   - Emphasize active recovery methods (light movement, mobility).
+   - Prioritize sleep quality and duration.
+   - Focus on stress management techniques.
+
+### Level 3: Skill & Integration Recovery
+
+**IMPLEMENTATION:**
+
+1. Timing
+
+   - After complex skill acquisition cycles (approx. 4-8 weeks)
+   - When technical errors increase or learning plateaus occur
+   - To consolidate complex motor patterns
+   - See workout-implementation.md Section 4
+
+2. Complexity Management
+
+   - Reduce complexity of integrated movements (e.g., practice components of Planche/Lever instead of full attempts).
+   - Reduce cognitive load during dual-task or reactive drills.
+   - Decrease volume (sets/reps) of high-skill movements by 30-50%.
+   - Maintain focus on perfect technical execution at reduced complexity/volume.
+
+3. Recovery Focus
+   - Incorporate more mindfulness and body scan practices.
+   - Emphasize fascial recovery and mobility work.
+   - Ensure adequate mental rest and reduced external stressors.
    <!-- AI.CONTEXT.END: DELOAD_PROTOCOLS -->
 
 ## SLEEP OPTIMIZATION
@@ -236,6 +281,64 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
    - System optimization
    <!-- AI.CONTEXT.END: NERVOUS_SYSTEM_RECOVERY -->
 
+<!-- AI.SECTION.START: ENHANCED_RECOVERY_MODALITIES -->
+
+## ENHANCED RECOVERY MODALITIES
+
+Beyond the foundational recovery protocols, consider incorporating these enhanced modalities based on individual needs, resources, and training phase. These often require more specific knowledge or equipment but can significantly aid recovery when applied appropriately.
+
+<!-- AI.CONTEXT: EnhancedRecovery_ContrastTherapy -->
+
+### Contrast Water Therapy
+
+**Protocol:** Alternating immersion in cold (approx. 10-15°C / 50-60°F) and hot (approx. 37-40°C / 98-104°F) water.
+**Example:** 1-2 minutes cold followed by 1-2 minutes hot, repeated for 3-5 cycles.
+**Benefits:** May reduce muscle soreness (DOMS), decrease inflammation, and improve circulation.
+**Considerations:** Individual tolerance varies; consult guidelines for safe temperature ranges and durations.
+
+<!-- AI.CONTEXT.END: EnhancedRecovery_ContrastTherapy -->
+
+<!-- AI.CONTEXT: EnhancedRecovery_Compression -->
+
+### Compression Garments
+
+**Protocol:** Wearing graduated compression garments (socks, sleeves, tights) during or after training.
+**Benefits:** May improve blood flow, reduce muscle oscillation during activity, and potentially decrease DOMS.
+**Considerations:** Evidence is mixed; effectiveness may depend on garment type, pressure, and duration of wear.
+
+<!-- AI.CONTEXT.END: EnhancedRecovery_Compression -->
+
+<!-- AI.CONTEXT: EnhancedRecovery_AdvancedMobility -->
+
+### Advanced Mobility & Soft Tissue Work
+
+**Protocol:** Incorporating techniques like Proprioceptive Neuromuscular Facilitation (PNF) stretching, targeted foam rolling protocols, or instrument-assisted soft tissue mobilization (requires training).
+**Benefits:** Can improve range of motion, reduce muscle tightness, and address specific fascial restrictions.
+**Considerations:** Requires proper technique to be safe and effective. PNF often requires a partner.
+
+<!-- AI.CONTEXT.END: EnhancedRecovery_AdvancedMobility -->
+
+<!-- AI.CONTEXT: EnhancedRecovery_Breathing -->
+
+### Specific Breathing Techniques
+
+**Protocol:** Utilizing techniques like box breathing, physiological sigh, or guided parasympathetic breathing exercises post-training or pre-sleep.
+**Benefits:** Can help downregulate the nervous system, reduce stress perception, and improve transition into a recovery state.
+**Considerations:** Focus on slow, controlled breathing patterns.
+
+<!-- AI.CONTEXT.END: EnhancedRecovery_Breathing -->
+
+<!-- AI.CONTEXT: EnhancedRecovery_Supplementation -->
+
+### Targeted Supplementation
+
+**Protocol:** Considering evidence-based supplements like creatine monohydrate (for performance and recovery), omega-3 fatty acids (anti-inflammatory), or tart cherry juice (potential DOMS reduction).
+**Benefits:** May support underlying recovery processes.
+**Considerations:** Always consult with a healthcare professional or registered dietitian before starting new supplements. Prioritize whole foods first. Reference `03-systems/training/02-nutrition-system.md`.
+
+<!-- AI.CONTEXT.END: EnhancedRecovery_Supplementation -->
+<!-- AI.SECTION.END: ENHANCED_RECOVERY_MODALITIES -->
+
 ## RECOVERY ASSESSMENT
 
 <!-- AI.CONTEXT: RECOVERY_ASSESSMENT -->
@@ -251,6 +354,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
    - Movement quality
    - Energy levels
    - Recovery status
+   - _Note: Consider Heart Rate Variability (HRV) tracking for objective recovery status (See Technology Integration Roadmap)_
 
 2. Mental Markers
    - Focus quality

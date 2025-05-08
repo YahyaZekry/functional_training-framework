@@ -1,13 +1,13 @@
 <!-- AI.FRAMEWORK.COMPONENT: NUTRITION_CALORIE_COUNTER -->
 <!-- AI.METADATA
 component: nutrition_calorie_counter
-version: 1.1
-last_updated: 03/05/2025
+version: 1.2
+last_updated: 08/05/2025
 framework_type: implementation_system
 language: en-US
 parent: superfunctional_training_system
-path: 03-systems/training/06-calorie-counter
-references: master_mission,unified_goal_framework,nutrition_implementation,energy_systems
+path: 03-systems/training/06-calorie-counter.md
+references: ["master_mission", "unified_goal_framework", "nutrition_implementation", "foundation_energy_systems", "framework_glossary", "recovery_implementation"]
 -->
 
 # CALORIE COUNTER TOOL
@@ -19,7 +19,9 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
 ### Food Database Integration
 
 **Implementation:**
+
 1. Dynamic regional database
+
    - Automatic region detection
    - Location-based food prioritization
    - Region-specific portion standards
@@ -35,7 +37,9 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
 ### Calculation Tools
 
 **Implementation:**
+
 1. Daily intake calculator
+
    - Individual food tracking
    - Complete meal logging
    - Running total maintenance
@@ -47,7 +51,7 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
    - Average calculations
    - Goal alignment
    - Recommendation generation
-<!-- AI.CONTEXT.END: CORE_FUNCTIONALITY -->
+   <!-- AI.CONTEXT.END: CORE_FUNCTIONALITY -->
 
 ## USER INTERACTION
 
@@ -56,7 +60,9 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
 ### Input Methods
 
 **Implementation:**
+
 1. Direct text entry
+
    - Natural language processing
    - Multiple language support (region-specific)
    - Unit conversion handling (regional measurements)
@@ -71,7 +77,9 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
 ### Output Formats
 
 **Implementation:**
+
 1. Structured list
+
    - Individual item breakdown
    - Per-item macronutrient display
    - Meal totals calculation
@@ -82,7 +90,7 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
    - Visual organization
    - Percentage indicators
    - Personalized recommendations
-<!-- AI.CONTEXT.END: USER_INTERACTION -->
+   <!-- AI.CONTEXT.END: USER_INTERACTION -->
 
 ## DISPLAY TEMPLATES
 
@@ -91,17 +99,18 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
 ### Standard Meal Display
 
 **Format:**
+
 ```
 **🍽️ MEAL LOGGED:**
-- [food item]: 
+- [food item]:
   [calories] kcal
   (P: [protein]g | C: [carbs]g | F: [fat]g)
 
-- [food item]: 
+- [food item]:
   [calories] kcal
   (P: [protein]g | C: [carbs]g | F: [fat]g)
 
-- **TOTAL**: 
+- **TOTAL**:
   [total calories] kcal
   (P: [total protein]g | C: [total carbs]g | F: [total fat]g)
 
@@ -117,10 +126,12 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
 ### Quick Format
 
 **Compact Display:**
+
 ```
 📊 **MEAL**: [food items] = [total calories] kcal (P: [protein]g | C: [carbs]g | F: [fat]g)
 ⚡ **REMAINING**: [remaining calories] kcal | [remaining protein]g protein | [remaining carbs]g carbs | [remaining fat]g fat
 ```
+
 <!-- AI.CONTEXT.END: DISPLAY_TEMPLATES -->
 
 ## REGIONAL FOOD DATABASE
@@ -130,7 +141,9 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
 ### Dynamic Region Detection
 
 **Implementation:**
+
 1. Location-based customization
+
    - Client location detection
    - Automatic region setting
    - Manual override option
@@ -145,7 +158,9 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
 ### Regional Database Components
 
 **Middle Eastern Region:**
+
 1. Staple foods
+
    - Falafel (طعمية مقلية)
    - Baladi bread (عيش بلدي)
    - Ful medames (فول مدمس)
@@ -159,7 +174,9 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
    - Typical combinations
 
 **North American Region:**
+
 1. Staple foods
+
    - Hamburgers and sandwiches
    - Various bread types
    - Dairy products
@@ -173,7 +190,9 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
    - Regional chain restaurant items
 
 **European Region:**
+
 1. Staple foods
+
    - Continental bread varieties
    - Regional cheese options
    - Mediterranean ingredients
@@ -187,7 +206,9 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
    - Local preparation methods
 
 **Asian Region:**
+
 1. Staple foods
+
    - Rice varieties
    - Noodle options
    - Regional vegetables
@@ -201,7 +222,9 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
    - Local specialties
 
 **Latin American Region:**
+
 1. Staple foods
+
    - Corn and wheat products
    - Regional bean varieties
    - Traditional dishes
@@ -213,7 +236,7 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
    - Regional cooking methods
    - Traditional combinations
    - Local ingredients
-<!-- AI.CONTEXT.END: REGIONAL_FOODS -->
+   <!-- AI.CONTEXT.END: REGIONAL_FOODS -->
 
 ## CROSS-REGIONAL FUNCTIONALITY
 
@@ -222,7 +245,9 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
 ### Global Food Database Access
 
 **Implementation:**
+
 1. Multi-region support
+
    - Primary region prioritization
    - Secondary region access
    - Global food search capability
@@ -237,7 +262,9 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
 ### Language Support
 
 **Implementation:**
+
 1. Multi-language processing
+
    - Primary language detection
    - Secondary language support
    - Food name translation
@@ -248,7 +275,7 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
    - Regional measurement terms
    - Cultural preparation methods
    - Traditional combinations
-<!-- AI.CONTEXT.END: CROSS_REGIONAL -->
+   <!-- AI.CONTEXT.END: CROSS_REGIONAL -->
 
 ## INTEGRATION SYSTEMS
 
@@ -257,9 +284,11 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
 ### Training Protocol Integration
 
 **Implementation:**
+
 1. Workout-specific recommendations
+
    - Pre-workout nutrition
-   - Post-workout recovery
+   - Post-workout recovery (See component: recovery_implementation)
    - Energy system support
    - Performance optimization
 
@@ -267,15 +296,17 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
    - DEFAULT MODE balance
    - WARRIOR MODE intensity support
    - DARKKNIGHT MODE precision focus
-   - Recovery optimization
+   - Recovery optimization (See component: recovery_implementation)
 
 ### Goal Framework Alignment
 
 **Implementation:**
+
 1. Goal-specific calculations
+
    - Weight management
    - Performance enhancement
-   - Recovery optimization
+   - Recovery optimization (See component: recovery_implementation)
    - Energy system support
 
 2. Progress tracking
@@ -283,7 +314,7 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
    - Adjustment recommendations
    - Success metrics
    - Pattern optimization
-<!-- AI.CONTEXT.END: INTEGRATION_SYSTEMS -->
+   <!-- AI.CONTEXT.END: INTEGRATION_SYSTEMS -->
 
 ## CUSTOMIZATION TOOLS
 
@@ -292,12 +323,14 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
 ### Personal Profile Integration
 
 **Implementation:**
+
 1. Demographic information
+
    - Age/sex/height/weight
    - Region/location
    - Activity level
    - Training frequency
-   - Recovery capacity
+   - Recovery capacity (See component: recovery_implementation)
 
 2. Metabolic calculations
    - BMR estimation
@@ -308,7 +341,9 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
 ### Preference Management
 
 **Implementation:**
+
 1. Food preferences
+
    - Dietary restrictions
    - Regional preferences
    - Cultural considerations
@@ -322,7 +357,7 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
    - Portion sizes
    - Meal timing
    - Fasting protocols
-<!-- AI.CONTEXT.END: CUSTOMIZATION_TOOLS -->
+   <!-- AI.CONTEXT.END: CUSTOMIZATION_TOOLS -->
 
 ## EDUCATIONAL COMPONENTS
 
@@ -331,7 +366,9 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
 ### Nutrition Knowledge Base
 
 **Implementation:**
+
 1. Macro education
+
    - Protein functions
    - Carbohydrate utilization
    - Fat metabolism
@@ -340,13 +377,15 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
 2. Timing principles
    - Meal frequency effects
    - Training integration
-   - Recovery optimization
+   - Recovery optimization (See component: recovery_implementation)
    - System support
 
 ### Cultural Nutrition Insights
 
 **Implementation:**
+
 1. Region-specific wisdom
+
    - Traditional eating patterns
    - Cultural nutritional practices
    - Historical dietary approaches
@@ -357,7 +396,7 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
    - Beneficial practices adoption
    - Cultural food diversity
    - Nutritional pattern integration
-<!-- AI.CONTEXT.END: EDUCATIONAL_COMPONENTS -->
+   <!-- AI.CONTEXT.END: EDUCATIONAL_COMPONENTS -->
 
 ## IMPLEMENTATION GUIDELINES
 
@@ -366,7 +405,9 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
 ### Usage Protocol
 
 **Interaction Flow:**
+
 1. Input methods
+
    - Type "client:" followed by food items
    - Submit in list format (one item per line)
    - Include quantities and descriptions
@@ -382,7 +423,9 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
 ### Regional Adaptation
 
 **Protocol:**
+
 1. Initial setup
+
    - Location detection from client info
    - Region setting confirmation
    - Primary language identification
@@ -393,4 +436,4 @@ references: master_mission,unified_goal_framework,nutrition_implementation,energ
    - Regional preference learning
    - Cross-regional integration as needed
    - Travel adaptation support
-<!-- AI.CONTEXT.END: IMPLEMENTATION_GUIDELINES -->
+   <!-- AI.CONTEXT.END: IMPLEMENTATION_GUIDELINES -->

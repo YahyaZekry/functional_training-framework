@@ -1,13 +1,13 @@
 <!-- AI.FRAMEWORK.COMPONENT: FOUNDATION_ENERGY_SYSTEMS -->
 <!-- AI.METADATA
 component: foundation_energy_systems
-version: 1.0
-last_updated: 24/04/2025
+version: 1.1
+last_updated: 08/05/2025
 framework_type: foundation_system
 language: en-US
 parent: superfunctional_training_system
-path: 02-foundation/01-energy-systems
-references: master_mission,unified_training_methodology,unified_intervention_system,progression_tracking
+path: 02-foundation/01-energy-systems.md
+references: ["master_mission", "unified_training_methodology", "unified_intervention_system", "progression_tracking", "framework_glossary", "recovery_implementation"]
 -->
 
 # ENERGY SYSTEMS FOUNDATION
@@ -26,7 +26,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 - 0-10 seconds duration
 - Phosphocreatine utilization
 - Neural drive development
-- Recovery requirements
+- Recovery requirements (See component: recovery_implementation)
 - System capacity enhancement
 
 ### Glycolytic System
@@ -64,7 +64,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 
 - Volume progression
 - Intensity management
-- Recovery integration
+- Recovery integration (See component: recovery_implementation)
 - System optimization
 - Pattern sustainability
 - Integration efficiency
@@ -73,14 +73,14 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 ### Concurrent Training
 
 - System balance
-- Recovery management
+- Recovery management (See component: recovery_implementation)
 - Load optimization
 - Pattern integration
 - Technical precision
 - Energy efficiency
 - Performance enhancement
 
-### Recovery Protocols
+### Recovery Protocols (See component: recovery_implementation for details)
 
 - System restoration
 - Energy replenishment
@@ -100,7 +100,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 - Energy system targeting
 - Volume management
 - Intensity scaling
-- Recovery integration
+- Recovery integration (See component: recovery_implementation)
 - Pattern sustainability
 - System protection
 - Integration efficiency
@@ -110,7 +110,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 - Capacity development
 - Power enhancement
 - Endurance building
-- Recovery optimization
+- Recovery optimization (See component: recovery_implementation)
 - Pattern integration
 - System stability
 - Performance tracking
@@ -120,7 +120,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 {ref: progression_tracking.success_metrics}
 
 - Work output
-- Recovery efficiency
+- Recovery efficiency (See component: recovery_implementation)
 - Energy utilization
 - Pattern stability
 - System integration
@@ -137,7 +137,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 - Interval design
 - Work-rest ratios
 - Intensity management
-- Recovery periods
+- Recovery periods (See component: recovery_implementation)
 - Pattern sustainability
 - System protection
 - Performance optimization
@@ -147,7 +147,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 - Lactate management
 - Intensity control
 - Volume progression
-- Recovery integration
+- Recovery integration (See component: recovery_implementation)
 - Pattern stability
 - System protection
 - Performance enhancement
@@ -157,7 +157,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 - 80/20 principle
 - Intensity distribution
 - Volume management
-- Recovery optimization
+- Recovery optimization (See component: recovery_implementation)
 - Pattern integration
 - System stability
 - Performance tracking
@@ -170,7 +170,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 ### Overtraining Prevention
 
 - Load management
-- Recovery monitoring
+- Recovery monitoring (See component: recovery_implementation)
 - Pattern stability
 - System integrity
 - Integration efficiency
@@ -180,7 +180,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 ### Emergency Protocols
 
 - Load reduction
-- Recovery activation
+- Recovery activation (See component: recovery_implementation)
 - Pattern modification
 - System stabilization
 - Integration adjustment
@@ -195,7 +195,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 ### Performance Indicators
 
 - Work capacity
-- Recovery efficiency
+- Recovery efficiency (See component: recovery_implementation)
 - Energy utilization
 - Pattern stability
 - System integration
@@ -206,7 +206,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 
 - Power output
 - Endurance capacity
-- Recovery ability
+- Recovery ability (See component: recovery_implementation)
 - Pattern sustainability
 - System stability
 - Integration efficiency

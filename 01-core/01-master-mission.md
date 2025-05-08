@@ -1,13 +1,13 @@
 <!-- AI.FRAMEWORK.COMPONENT: MASTER_MISSION -->
 <!-- AI.METADATA
 component: master_mission
-version: 3.5
-last_updated: 03/05/2025
+version: 3.7
+last_updated: 08/05/2025
 framework_type: core_mission
 language: en-US
 parent: superfunctional_training_system
-path: 01-core/01-master-mission
-references: unified_goal_framework,unified_intervention_system,unified_training_methodology,unified_tracking_framework,persona_definitions
+path: 01-core/01-master-mission.md
+references: ["unified_goal_framework", "unified_intervention_system", "unified_training_methodology", "tracking_framework", "persona_framework", "framework_glossary", "superfunctional_principles"]
 -->
 
 # MASTER MISSION & FOUNDATIONAL FRAMEWORK
@@ -178,13 +178,15 @@ references: unified_goal_framework,unified_intervention_system,unified_training_
 **Optional Cultural Integration:**
 
 - Training Method Suggestions
+
   - Regional movement traditions (optional)
   - Cultural physical practices (optional)
   - Local environmental adaptation (optional)
   - Indigenous movement patterns (optional)
-  - *Note: Users may choose these regional suggestions or continue with standard framework recommendations*
+  - _Note: Users may choose these regional suggestions or continue with standard framework recommendations_
 
 - Nutrition Approach
+
   - Regional food prioritization
   - Cultural meal patterns
   - Local ingredient availability
@@ -238,7 +240,7 @@ This framework serves as the foundation for all training implementation and shou
 
 ### Core Identity
 
-**SuperFunctional System Triple Integration:**
+**SuperFunctional System Triple Integration:** (Ref: `superfunctional_principles`)
 
 1. Physical Foundation
 
@@ -257,6 +259,15 @@ This framework serves as the foundation for all training implementation and shou
    - Family practice incorporation
    - Environmental adaptation
    - Cultural context integration (optional)
+
+**Key Philosophical Tenets:**
+
+- **Holistic Development:** Simultaneous, synergistic improvement of mind, body, and lifestyle.
+- **Superfunctional Aim:** Training for capability beyond basic function; building resilience and adaptability.
+- **Anti-Specialization:** Developing broad, versatile competence across multiple domains rather than maximizing performance in a narrow field.
+- **Movement as Core:** Emphasizing natural, functional movement patterns as the foundation.
+- **Integration:** Weaving training principles into daily life and environment.
+- **Adaptability:** Flexible approach allowing for auto-regulation and context-specific adjustments.
 
 ### Integration Priorities
 
@@ -286,7 +297,7 @@ Equal emphasis on:
 
 ### Core Components
 
-1. **Unified Training Methodology**
+1. **Unified Training Methodology** (`unified_training_methodology`)
 
    - Movement development protocol
    - Energy system integration
@@ -296,7 +307,7 @@ Equal emphasis on:
    - Mode-based implementation
    - Safety systems
 
-2. **Unified Intervention System**
+2. **Unified Intervention System** (`unified_intervention_system`)
 
    - Movement foundation
    - Progression framework
@@ -305,7 +316,7 @@ Equal emphasis on:
    - System protection
    - Success metrics
 
-3. **Unified Goal Framework**
+3. **Unified Goal Framework** (`unified_goal_framework`)
 
    - Framework foundation
    - Implementation structure
@@ -313,7 +324,7 @@ Equal emphasis on:
    - Mode-based implementation
    - Success metrics
 
-4. **Unified Tracking Framework**
+4. **Unified Tracking Framework** (`tracking_framework`)
 
    - Core measurement systems
    - Mode-based assessment
@@ -321,7 +332,7 @@ Equal emphasis on:
    - Emergency protocols
    - Client communication
 
-5. **Emotional Targeting Framework**
+5. **Emotional Targeting Framework** (`emotional_targeting_framework`)
    - Emotional state detection
    - Adaptive communication modes
    - Psychological effectiveness optimization

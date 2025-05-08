@@ -1,13 +1,13 @@
 <!-- AI.FRAMEWORK.COMPONENT: FOUNDATION_MOVEMENT_CULTURE -->
 <!-- AI.METADATA
 component: foundation_movement_culture
-version: 2.0
-last_updated: 24/04/2025
+version: 2.2
+last_updated: 08/05/2025
 framework_type: foundation_system
 language: en-US
 parent: superfunctional_training_system
-path: 02-foundation/02-movement-culture
-references: master_mission,unified_training_methodology,unified_intervention_system,superfunctional_principles
+path: 02-foundation/02-movement-culture.md
+references: ["master_mission", "unified_training_methodology", "unified_intervention_system", "superfunctional_principles", "framework_glossary", "recovery_implementation"]
 -->
 
 # MOVEMENT CULTURE FOUNDATION
@@ -131,8 +131,13 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
    - Hold time development
    - Technical mastery
 
-3. **Full Position Work** - Straddle front lever - Full front lever attempts - Dynamic movements - Pulling strength - Movement integration
-<!-- AI.CONTEXT.END: MOVEMENT_PROGRESSIONS -->
+3. **Full Position Work**
+   - Straddle front lever
+   - Full front lever attempts
+   - Dynamic movements
+   - Pulling strength
+   - Movement integration
+   <!-- AI.CONTEXT.END: MOVEMENT_PROGRESSIONS -->
 
 ### Handstand Mastery
 
@@ -235,6 +240,19 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 - Movement creativity cultivation
 - Technical precision development
 
+<!-- AI.CONTEXT: PlayfulPractice -->
+
+### Playful Practice & Gamification (Optional Integration)
+
+- **Concept:** Incorporate elements of play, exploration, and game mechanics to enhance intrinsic motivation, adherence, and skill development in a less rigid context.
+- **Examples:**
+  - **Skill Challenges:** Set specific, measurable, achievable, relevant, time-bound (SMART) challenges for skills (e.g., longest handstand hold in a month, number of consecutive cartwheels).
+  - **Movement Games:** Partner mirror drills, obstacle course creation/navigation (using available environment), "add-on" movement flow sequences.
+  - **Exploration Sessions:** Dedicate time for unstructured movement exploration, trying new variations or combinations without specific goals ("Movement Jam").
+  - **Point Systems (Self-Managed):** Assign points for consistency, trying new skills, achieving personal bests, or completing challenges.
+- **Integration:** Can be incorporated into warm-ups, cool-downs, active recovery days, or dedicated practice sessions.
+<!-- AI.CONTEXT.END: PlayfulPractice -->
+
 ### Integration Protocols
 
 {ref: unified_intervention_system.physical_development}
@@ -279,7 +297,7 @@ references: master_mission,unified_training_methodology,unified_intervention_sys
 - Pattern progression
 - Environmental assessment
 - Load management
-- Recovery integration
+- Recovery integration (See component: recovery_implementation)
 - System protection
 - Adaptation monitoring
 

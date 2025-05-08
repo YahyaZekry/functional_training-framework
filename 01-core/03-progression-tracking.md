@@ -1,13 +1,13 @@
 <!-- AI.FRAMEWORK.COMPONENT: PROGRESSION_TRACKING -->
 <!-- AI.METADATA
 component: progression_tracking
-version: 3.0
-last_updated: 24/04/2025
+version: 3.3
+last_updated: 08/05/2025
 framework_type: tracking_system
 language: en-US
 parent: superfunctional_training_system
-path: 01-core/03-progression-tracking
-references: master_mission,unified_goal_framework,unified_intervention_system,unified_training_methodology,persona_definitions
+path: 01-core/03-progression-tracking.md
+references: ["master_mission", "unified_goal_framework", "unified_intervention_system", "unified_training_methodology", "persona_framework", "framework_glossary", "level_transition_guidelines", "movement_assessment_correctives"]
 -->
 
 # PROGRESSION TRACKING
@@ -75,7 +75,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 
 <!-- AI.CONTEXT: MODE_ASSESSMENT -->
 
-### HYBRID MODE
+### DEFAULT MODE
 
 **Balance Metrics:**
 
@@ -88,7 +88,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 - Fascial integration
 - Environmental adaptation
 
-### GOGGINS MODE
+### WARRIOR MODE
 
 **Intensity Metrics:**
 
@@ -101,7 +101,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 - Adaptation rate
 - Power development
 
-### BATMAN MODE
+### DARKKNIGHT MODE
 
 **Technical Metrics:**
 
@@ -120,7 +120,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 
 ### Assessment Protocols
 
-**Initial Evaluation:**
+**Initial Evaluation:** (See component: `movement_assessment_correctives` for detailed screen)
 
 - Primal movement screening
 - Energy assessment

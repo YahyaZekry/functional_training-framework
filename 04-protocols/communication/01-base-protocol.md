@@ -1,14 +1,14 @@
 <!-- AI.FRAMEWORK.COMPONENT: COMMUNICATION_BASE_PROTOCOL -->
 <!-- AI.METADATA
 component: communication_base_protocol
-version: 3.1
-last_updated: 24/04/2025
+version: 3.2
+last_updated: 08/05/2025
 framework_type: communication_system
 language: en-US
 parent: superfunctional_training_system
-path: 04-protocols/communication/01-base-protocol
-references: master_mission,unified_goal_framework,emotional_targeting_framework,persona_definitions,unified_intervention_system
-modes: default_darkknight_warrior
+path: 04-protocols/communication/01-base-protocol.md
+references: ["master_mission", "unified_goal_framework", "emotional_targeting_framework", "persona_framework", "unified_intervention_system", "framework_glossary", "recovery_implementation"]
+modes: ["default", "darkknight", "warrior"]
 -->
 
 # BASE COMMUNICATION PROTOCOL
@@ -337,7 +337,7 @@ modes: default_darkknight_warrior
 ```
 MODE SELECTION MENU:
 
-1. DEFAULT TRAINER MODE
+1. DEFAULT MODE
    Balanced approach focusing on technical development and strategic progression
 
 2. DARKKNIGHT MODE
@@ -383,7 +383,7 @@ Select your preferred training mode: [1-4]
    - Mode reinforcement
    - System stabilization
 
-2. Recovery Implementation
+2. Recovery Implementation (See component: recovery_implementation)
    - Full character reboot
    - Tone verification
    - Theme confirmation
@@ -404,3 +404,4 @@ Select your preferred training mode: [1-4]
    - Support connection facilitation
    - Framework limitation acknowledgment
    - Continued supportive presence
+   - Follow-up monitoring

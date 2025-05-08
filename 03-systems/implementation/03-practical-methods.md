@@ -1,14 +1,16 @@
 <!-- AI.FRAMEWORK.COMPONENT: PRACTICAL_IMPLEMENTATION -->
 <!-- AI.METADATA
 component: practical_implementation
-version: 2.0
-last_updated: 24/04/2025
+version: 2.1
+last_updated: 08/05/2025
 framework_type: implementation_system
 language: en-US
 parent: superfunctional_training_system
-path: 03-systems/implementation/03-practical-methods
-references: master_mission,unified_goal_framework,unified_intervention_system,unified_training_methodology,progression_tracking
+path: 03-systems/implementation/03-practical-methods.md
+references: ["master_mission", "unified_goal_framework", "unified_intervention_system", "unified_training_methodology", "progression_tracking", "framework_glossary", "recovery_implementation", "nutrition_implementation"]
 -->
+
+<!-- AI.SECTION.START: PRACTICAL_IMPLEMENTATION -->
 
 # PRACTICAL IMPLEMENTATION FRAMEWORK
 
@@ -59,7 +61,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
    - Form emphasis
    - Progressive development
    - Technique mastery
-   - Recovery integration
+   - Recovery integration (See component: recovery_implementation)
 
 2. Movement Development Path
 
@@ -97,6 +99,8 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 
 <!-- AI.CONTEXT: NUTRITION_IMPLEMENTATION -->
 
+(Note: See component: nutrition_implementation for full details)
+
 ### Reset Diet Protocol
 
 1. **Structure**
@@ -122,7 +126,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
   - Protein focus
   - Nutrient variety
   - Energy management
-  - Recovery support
+  - Recovery support (See component: recovery_implementation)
 
 ### Muscle Fuel Diet Protocol
 
@@ -142,13 +146,13 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
   - Energy support
   - Nutrient density
   - System optimization
-  - Recovery integration
+  - Recovery integration (See component: recovery_implementation)
 
 - **Lunch (35% AMR)**
   - Complex nutrition
   - Protein focus
   - Energy management
-  - Recovery support
+  - Recovery support (See component: recovery_implementation)
   - Performance enhancement
   <!-- AI.CONTEXT.END: NUTRITION_IMPLEMENTATION -->
 
@@ -157,6 +161,8 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 {ref: unified_intervention_system.recovery_integration}
 
 <!-- AI.CONTEXT: RECOVERY_INTEGRATION -->
+
+(Note: See component: recovery_implementation for full details)
 
 ### Active Recovery Protocol
 
@@ -179,14 +185,20 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 
 1. **Timing**
 
-   - Every 5th week
+   - Every 5th week (general guideline, adapt based on periodization/tracking)
    - Level transitions
-   - Recovery needs
-   - System protection
-   - Performance maintenance
+   - Recovery needs assessment
+   - System protection priority
+   - Performance maintenance goal
 
-2. **Structure** - Reduced volume - Skill focus - Mental recovery - System reset - Pattern stability
-<!-- AI.CONTEXT.END: RECOVERY_INTEGRATION -->
+2. **Structure**
+   - Reduced volume/intensity/complexity
+   - Skill focus & technical refinement
+   - Mental recovery emphasis
+   - System reset
+   - Pattern stability check
+   - (Refer to component: recovery_implementation for Level-Specific Deload Protocols)
+   <!-- AI.CONTEXT.END: RECOVERY_INTEGRATION -->
 
 ## LIFESTYLE INTEGRATION
 
@@ -204,7 +216,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
    - Movement opportunities
    - Skill practice
    - Energy management
-   - Recovery focus
+   - Recovery focus (See component: recovery_implementation)
 
 1. **Mental Development**
    - State control
@@ -220,11 +232,16 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
    - Movement spaces
    - Equipment placement
    - Natural elements
-   - Recovery zones
+   - Recovery zones (See component: recovery_implementation)
    - System support
 
-2. **Implementation** - Daily access - Pattern practice - Skill development - Recovery integration - System protection
-<!-- AI.CONTEXT.END: LIFESTYLE_INTEGRATION -->
+2. **Implementation**
+   - Daily access
+   - Pattern practice
+   - Skill development
+   - Recovery integration (See component: recovery_implementation)
+   - System protection
+   <!-- AI.CONTEXT.END: LIFESTYLE_INTEGRATION -->
 
 ## SUCCESS METRICS
 
@@ -248,7 +265,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
    - Movement quality
    - Energy efficiency
    - Neural adaptation
-   - Recovery optimization
+   - Recovery optimization (See component: recovery_implementation)
    - System stability
 
 2. **Mental Progress**
@@ -268,6 +285,11 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
    - Environmental adaptation
    - System integration
 
-2. **System Integration** - Energy capacity - Recovery ability - Pattern sustainability - System resilience - Performance optimization
-   <!-- AI.CONTEXT.END: SUCCESS_METRICS -->
-   <!-- AI.SECTION.END: PRACTICAL_IMPLEMENTATION -->
+2. **System Integration**
+   - Energy capacity
+   - Recovery ability (See component: recovery_implementation)
+   - Pattern sustainability
+   - System resilience
+   - Performance optimization
+     <!-- AI.CONTEXT.END: SUCCESS_METRICS -->
+     <!-- AI.SECTION.END: PRACTICAL_IMPLEMENTATION -->

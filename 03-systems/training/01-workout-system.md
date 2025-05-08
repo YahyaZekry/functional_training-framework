@@ -1,13 +1,13 @@
 <!-- AI.FRAMEWORK.COMPONENT: WORKOUT_IMPLEMENTATION -->
 <!-- AI.METADATA
 component: workout_implementation
-version: 1.0
-last_updated: 24/04/2025
+version: 1.7
+last_updated: 08/05/2025
 framework_type: implementation_system
 language: en-US
 parent: superfunctional_training_system
-path: 03-systems/training/01-workout-system
-references: master_mission,unified_goal_framework,unified_intervention_system,unified_training_methodology,progression_tracking,brain_training_implementation,recovery_implementation
+path: 03-systems/training/01-workout-system.md
+references: ["master_mission", "unified_goal_framework", "unified_intervention_system", "unified_training_methodology", "progression_tracking", "brain_training_implementation", "recovery_implementation", "framework_glossary", "neuromuscular_dual_task_protocols", "proprioceptive_challenges", "reactive_training", "brain_physical_integration_map", "level_transition_guidelines", "demographic_integration_overview", "youth_protocols", "midlife_protocols", "senior_protocols", "movement_culture", "foundation_fascia_training"]
 -->
 
 # WORKOUT IMPLEMENTATION FRAMEWORK
@@ -50,11 +50,60 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
   4.  MHR = maximum heart rate
   5.  AMRAP = as many reps as possible
 
+<!-- AI.CONTEXT: PlayfulIntegrationNote -->
+
+### Playful Integration (Optional)
+
+- While structured progression is key, consider incorporating elements of play and exploration from `movement_culture` where appropriate, especially during warm-ups, cool-downs, or dedicated skill sessions. This can enhance motivation and adaptability. Examples include movement games, skill challenges, or unstructured flow practice.
+<!-- AI.CONTEXT.END: PlayfulIntegrationNote -->
+
+<!-- AI.SECTION.START: NEUROMUSCULAR_INTEGRATION_OVERVIEW -->
+
+## NEUROMUSCULAR INTEGRATION ENHANCEMENTS
+
+The following workout levels can be enhanced by incorporating protocols from the Neuromuscular Integration series. These aim to improve motor learning, movement efficiency, adaptability, and injury resilience by challenging cognitive engagement, proprioception, and reaction capabilities during physical tasks.
+
+Refer to these detailed guides for implementation:
+
+- **Dual-Task Protocols:** [`05-enhancements/01-neuromuscular-integration/01-dual-task-protocols.md`](../../05-enhancements/01-neuromuscular-integration/01-dual-task-protocols.md) - Layering cognitive tasks onto movements.
+- **Proprioceptive Challenges:** [`05-enhancements/01-neuromuscular-integration/02-proprioceptive-challenges.md`](../../05-enhancements/01-neuromuscular-integration/02-proprioceptive-challenges.md) - Reducing sensory input or increasing instability.
+- **Reactive Training:** [`05-enhancements/01-neuromuscular-integration/03-reactive-training.md`](../../05-enhancements/01-neuromuscular-integration/03-reactive-training.md) - Responding to unpredictable stimuli.
+
+These can be added as specific exercises, modifications to existing exercises, or dedicated blocks within a session, as suggested in the level-specific notes below.
+
+<!-- AI.SECTION.END: NEUROMUSCULAR_INTEGRATION_OVERVIEW -->
+
+<!-- AI.SECTION.START: DEMOGRAPHIC_ADAPTATION_OVERVIEW -->
+
+## DEMOGRAPHIC ADAPTATION CONSIDERATIONS
+
+The following workout levels should be adapted based on the user's age group (Youth, Midlife, Senior) and individual capabilities. While the core structure remains, exercise selection, volume, intensity, and progression rates require modification.
+
+Refer to the central overview and specific protocol files for detailed guidance:
+
+- **Overview:** [`05-enhancements/02-demographic-adaptations/00-demographic-integration-overview.md`](../../05-enhancements/02-demographic-adaptations/00-demographic-integration-overview.md)
+- **Youth:** [`05-enhancements/02-demographic-adaptations/01-youth-protocols.md`](../../05-enhancements/02-demographic-adaptations/01-youth-protocols.md)
+- **Midlife:** [`05-enhancements/02-demographic-adaptations/02-midlife-protocols.md`](../../05-enhancements/02-demographic-adaptations/02-midlife-protocols.md)
+- **Seniors:** [`05-enhancements/02-demographic-adaptations/03-senior-protocols.md`](../../05-enhancements/02-demographic-adaptations/03-senior-protocols.md)
+
+Specific modification notes are included within the level descriptions below.
+
+<!-- AI.SECTION.END: DEMOGRAPHIC_ADAPTATION_OVERVIEW -->
+
 ## LEVEL-SPECIFIC IMPLEMENTATIONS
 
 ### Level 0: O.N.E. Workout
 
 {ref: unified_intervention_system.progression_framework}
+
+<!-- AI.CONTEXT: Level0_DemographicNotes -->
+
+**Demographic Adaptation Notes:**
+
+- **Youth:** Focus on mastering form for all movements. Use progressions (knee push-ups, assisted pull-ups) extensively. Prioritize play and skill acquisition over minimizing time. See Youth Protocols.
+- **Midlife:** Ensure proper warm-up and joint preparation. Monitor recovery; adjust total reps/rest as needed based on life stress. See Midlife Protocols.
+- **Seniors:** Modify exercises significantly for safety and capacity. Examples: Chair squats instead of air squats, incline push-ups or band presses instead of floor push-ups, band pull-downs or rows instead of pull-ups. Focus on controlled movement and functional capacity, not speed. See Senior Protocols.
+<!-- AI.CONTEXT.END: Level0_DemographicNotes -->
 
 - **PRIMARY WORKOUT:**
 
@@ -65,6 +114,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Rest: Minimal between sets
       - Brain Integration: Movement awareness focus
       - See brain-training-implementation.md Section 2.1 for movement awareness focus
+      - Neuromuscular Enhancement: Try a set with eyes closed (Proprioceptive) or while reciting alphabet backwards (Dual-Task).
 
   2.  Pull Ups: 50 total reps
 
@@ -73,6 +123,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Rest: As needed but minimal
       - Brain Integration: Pattern recognition
       - See brain-training-implementation.md Section 2.3 for pattern recognition
+      - Neuromuscular Enhancement: For a set, use varied grip widths if possible, or focus on reacting to a partner's clap to initiate a rep (Reactive).
 
   3.  Air Squats: 150 total reps
       - Form: Below parallel
@@ -80,6 +131,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Rest: Minimal between sets
       - Brain Integration: Body awareness
       - See brain-training-implementation.md Section 2.2
+      - Neuromuscular Enhancement: Perform a set on an unstable surface (Proprioceptive, e.g., cushion) or respond to verbal cues for tempo changes (Reactive/Dual-Task).
 
 - **IMPLEMENTATION:**
 
@@ -118,6 +170,15 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 
 ### Level 1: Pump Training
 
+<!-- AI.CONTEXT: Level1_DemographicNotes -->
+
+**Demographic Adaptation Notes:**
+
+- **Youth:** Focus on mastering technique before increasing weight significantly. Ensure adequate protein/calories for growth. Volume may need adjustment based on growth spurts and overall activity levels. See Youth Protocols.
+- **Midlife:** Pay close attention to joint health, especially shoulders/elbows during pressing. Modify exercises (e.g., dumbbell bench vs. barbell) if needed. Manage volume/intensity based on recovery and life stress. See Midlife Protocols.
+- **Seniors:** Use lighter loads (e.g., bands, light dumbbells, machines) focusing on controlled tempo and muscle activation. Reduce volume (sets/reps) as needed. Prioritize joint-friendly variations (e.g., incline press, machine rows). See Senior Protocols.
+<!-- AI.CONTEXT.END: Level1_DemographicNotes -->
+
 - **PUSH DAY:**
 
   1.  Mechanical Drop Set:
@@ -128,6 +189,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Progress: Increase initial weight
       - Brain Integration: Mind-muscle connection
       - See brain-training-implementation.md Section 3.2
+      - Neuromuscular Enhancement (Press Ups): Partner taps (Reactive) or eyes closed (Proprioceptive).
 
   2.  Military Press: 3 _ 10 _ 80%F
 
@@ -136,6 +198,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Progress: Weight increase when form perfect
       - Brain Integration: Movement patterning
       - See brain-training-implementation.md Section 3.1
+      - Neuromuscular Enhancement: Perform standing on one leg (Proprioceptive) or respond to verbal start/stop cues (Reactive).
 
   3.  Cable Complex:
 
@@ -146,6 +209,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Focus on continuous tension
       - Brain Integration: Flow state development
       - See brain-training-implementation.md Section 3.4
+      - Neuromuscular Enhancement: Add a cognitive task like naming countries during the set (Dual-Task).
 
   4.  Tricep Development:
       A. Push Downs: 3 _ 15 _ 80%F
@@ -162,6 +226,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Quality over quantity
       - 30 seconds between exercises
       - Brain Integration: Unilateral awareness
+      - Neuromuscular Enhancement (Dips): Perform on unstable surface if possible (Proprioceptive) or with eyes closed briefly.
 
   5.  Finisher Options:
       A. Volume: 100 rep chest press or push ups
@@ -170,6 +235,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Maintain form
       - Complete all reps
       - Brain Integration: Mental endurance
+      - Neuromuscular Enhancement: Add cognitive task during rest-pauses (Dual-Task).
 
       B. Conditioning:
 
@@ -177,6 +243,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Heavy bag: 5 \* 1 minute
       - 30 seconds rest between rounds
       - Brain Integration: Flow state
+      - Neuromuscular Enhancement: React to visual cues for starting/stopping rounds (Reactive).
 
 - **PULL DAY:**
 
@@ -187,6 +254,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Focus on scapular control
       - Full range of motion
       - See brain-training-implementation.md Section 3.2
+      - Neuromuscular Enhancement (Inverted Push Up): Perform with feet elevated or on unstable surface (Proprioceptive).
 
   2.  Cable Row: 3 \* 15 to Failure
 
@@ -194,6 +262,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Control eccentric
       - Full stretch
       - Rest: 30 seconds
+      - Neuromuscular Enhancement: Perform single-arm rows with eyes closed (Proprioceptive).
 
   3.  Bicep Complex:
       - [Bicep Curls * 12 to Failure > Hammer Curls * Failure > Cheat Curls * Failure] \* 3
@@ -201,6 +270,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - No rest during complex
       - 30 seconds between sets
       - Progress: increase weight when form perfect
+      - Neuromuscular Enhancement: Perform curls while balancing on one leg (Proprioceptive).
 
   - **LEGS/CORE DAY:**
 
@@ -217,6 +287,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Maximum height
       - Soft landing
       - Full extension
+      - Neuromuscular Enhancement: Add a cognitive task like counting backwards during jumps (Dual-Task).
 
   2.  Core Development:
       A. Ab Crunch Machine 3 \* 12 to Failure
@@ -230,6 +301,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Long steps
       - Knee control
       - Maintain posture
+      - Neuromuscular Enhancement: Perform lunges with eyes closed or onto an unstable surface (Proprioceptive).
 
   3.  Core Complex:
 
@@ -237,6 +309,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - No rest during complex
       - Focus on lower abs
       - Prevent swinging
+      - Neuromuscular Enhancement: Add verbal cues for holds/transitions within the complex (Reactive).
 
   4.  Conditioning:
       A. Burpees 3 \* Failure
@@ -244,12 +317,14 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Full extension
       - Chest to ground
       - Explosive jump
+      - Neuromuscular Enhancement: Add a clap or touch a target at the top of the jump based on a cue (Reactive).
 
       B. Bicycle Sit Ups 3 \* 25
 
       - Opposite elbow to knee
       - Full rotation
       - Control movement
+      - Neuromuscular Enhancement: Perform with eyes closed (Proprioceptive).
 
 - **FULL BODY:**
 
@@ -276,6 +351,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       2.  Hanging Leg Raises \* 10
       3.  Tricep Dips \* 10
       4.  Plank 1 Minute
+      - Neuromuscular Enhancement: Introduce cognitive tasks during rest periods or instability challenges during exercises (e.g., Plank on unstable surface - Proprioceptive).
 
 - **Implementation Notes:**
   - Rest 30 seconds between rounds
@@ -290,6 +366,15 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 
 {ref: unified_intervention_system.power_development}
 
+<!-- AI.CONTEXT: Level2_DemographicNotes -->
+
+**Demographic Adaptation Notes:**
+
+- **Youth:** Introduce power training cautiously, focusing on technique and light loads (e.g., medicine balls, bands, bodyweight plyos). Avoid heavy maximal lifts until physically mature. See Youth Protocols.
+- **Midlife:** Power is important but manage joint stress. Use variations like trap bar deadlifts, dumbbell bench, medicine ball throws. Adjust intensity/volume based on recovery. See Midlife Protocols.
+- **Seniors:** Focus on power _maintenance_ using lower intensity (40-60% 1RM) and faster concentric speeds on safe exercises (e.g., leg press, seated throws, fast sit-to-stands). Prioritize safety and control. See Senior Protocols.
+<!-- AI.CONTEXT.END: Level2_DemographicNotes -->
+
 - **FULL BODY POWER:**
 
   1.  Trap Bar Deadlift
@@ -301,6 +386,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Rest: 1-2 minutes
       - Cue: Drive through floor
       - See brain-training-implementation.md Section 4.1
+      - Neuromuscular Enhancement: Add variable resistance (bands/chains) or perform reps responding to a start cue (Reactive).
 
   2.  Bench Press
 
@@ -311,6 +397,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Rest: 1-2 minutes
       - Cue: Break the bar
       - See brain-training-implementation.md Section 4.2
+      - Neuromuscular Enhancement: Use accommodating resistance or perform sets with eyes closed during the eccentric phase (Proprioceptive).
 
   3.  Squat
       - Warm up: 1 _ 10 _ 10%1RM
@@ -320,6 +407,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Rest: 1-2 minutes
       - Cue: Spread the floor
       - See brain-training-implementation.md Section 4.3
+      - Neuromuscular Enhancement: Incorporate pause squats with a cognitive task during the pause (Dual-Task) or use unstable surfaces for warm-up sets (Proprioceptive).
 
 - **SPOT STRENGTH WORKOUT:**
 
@@ -329,6 +417,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - External rotation focus
       - Retract scapula
       - Rest: 1 minute
+      - Neuromuscular Enhancement: Perform with eyes closed or on one leg (Proprioceptive).
 
   2.  Power Complex:
       A. Shrugs 2 _ 4 _ 90%1RM
@@ -348,6 +437,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Technical mastery focus
       - Control throughout
       - Rest: 1-2 minutes
+      - Neuromuscular Enhancement: Add a reactive component, e.g., initiating the lift on a visual cue (Reactive).
 
   3.  Chest Development:
       A. Incline Bench Press 2 _ 10 _ 70%1RM
@@ -361,6 +451,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Shoulder packed
       - Bar path control
       - Rest: 1 minute
+      - Neuromuscular Enhancement: Perform sets with alternating single-arm presses (Proprioceptive).
 
   4.  Loaded Carries:
 
@@ -368,6 +459,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Maximum weight possible
       - Perfect posture
       - Rest: 1 minute between sets
+      - Neuromuscular Enhancement: Navigate a simple obstacle course or perform with eyes focused straight ahead (Proprioceptive/Dual-Task).
 
   5.  Pull Strength:
       - Weighted Chin Ups 3 \* 5F
@@ -375,6 +467,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Full hang
       - Dead hang between reps
       - Rest: 1-2 minutes
+      - Neuromuscular Enhancement: Add a cognitive task between reps (Dual-Task) or use varied grip positions (Proprioceptive).
 
 - **OVERLOAD WORKOUT:**
 
@@ -385,6 +478,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Focus on intent
       - Recovery breathing between efforts
       - See brain-training-implementation.md Section 4.5
+      - Neuromuscular Enhancement: Focus on maximal neural drive while maintaining perfect form under cognitive focus (Dual-Task).
 
   2.  Heavy Pull Development:
       A. Trap Bar Deadlift Warm Up
@@ -399,6 +493,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Above knee position
       - Explosive pull
       - Rest: 1.5 minutes
+      - Neuromuscular Enhancement: Add reactive elements like lifting on command (Reactive).
 
   3.  Press Overload:
       A. Bench Press Warm Up
@@ -413,6 +508,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Bands or chains
       - Explosive intent
       - Rest: 1.5 minutes
+      - Neuromuscular Enhancement: Focus on explosive intent while maintaining stability with the accommodating resistance (Proprioceptive/Reactive).
 
   4.  Loaded Carry Complex:
 
@@ -421,6 +517,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Maximum sustainable weight
       - Rest as needed for form
       - Alternate carry positions
+      - Neuromuscular Enhancement: Add cognitive tasks like route planning or memory recall during carries (Dual-Task).
 
   5.  Leg Development:
 
@@ -430,6 +527,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Long steps
       - Knee control
       - Rest: 1 minute
+      - Neuromuscular Enhancement: Perform lunges onto unstable surfaces or with eyes closed (Proprioceptive).
 
   6.  Power Endurance:
       A. Kettlebell Swings Tabata
@@ -438,6 +536,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - 8 rounds
       - Hip drive focus
       - Power generation
+      - Neuromuscular Enhancement: Add a reactive cue for initiating each set (Reactive).
 
       B. Explosive Upper Body
 
@@ -445,6 +544,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Maximum height
       - Soft landing
       - Technical precision
+      - Neuromuscular Enhancement: Perform on varied surfaces or add a target touch on landing (Reactive/Proprioceptive).
 
       C. Lower Body Power
 
@@ -452,12 +552,22 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Full depth
       - Explosive jump
       - Soft landing
+      - Neuromuscular Enhancement: Jump in response to a cue or onto designated targets (Reactive).
 
 ---
 
 ### Level 3: Movement Training
 
 {ref: unified_intervention_system.movement_mastery}
+
+<!-- AI.CONTEXT: Level3_Movement_DemographicNotes -->
+
+**Demographic Adaptation Notes (Movement Training Focus):**
+
+- **Youth:** Excellent phase for complex skill acquisition (Handstands, Planche progressions). Focus on mastery through repetition and play. Ensure adequate recovery and nutritional support. See Youth Protocols.
+- **Midlife:** Approach advanced skills cautiously based on joint health and training history. Modify range of motion or use assistance (bands) as needed. Prioritize quality over high-risk attempts. See Midlife Protocols.
+- **Seniors:** Focus on maintaining existing skills and functional movement quality. High-complexity skills like Planche/Handstand Pushups are generally contraindicated; focus on regressions, mobility, and functional strength/power relevant to daily life. See Senior Protocols.
+<!-- AI.CONTEXT.END: Level3_Movement_DemographicNotes -->
 
 - **PUSH DAY:**
 
@@ -475,6 +585,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Elevated feet
       - Shoulder focus
       - Control movement
+      - Neuromuscular Enhancement: Perform reps with eyes closed or on an unstable surface (Proprioceptive).
 
   2.  Planche Work:
       A. Planche Progressions 3 \* 30s
@@ -489,6 +600,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Technical focus
       - Control throughout
       - Rest as needed
+      - Neuromuscular Enhancement: Add a cognitive task during holds (Dual-Task).
 
   3.  Press Complex:
       A. Military Press 3 \* 8 sub-maximal
@@ -502,6 +614,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - RTO at top
       - False grip practice
       - Full depth
+      - Neuromuscular Enhancement: Perform reps responding to reactive cues (Reactive) or with eyes closed (Proprioceptive).
 
   4.  Press Variations:
       A. Explosive Series:
@@ -523,12 +636,22 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Even finger spacing
       - Control descent
       - Rest: 1 minute
+      - Neuromuscular Enhancement: Add cognitive challenges during rest or instability elements (Proprioceptive).
 
 ---
 
-### Level 4: SuperFunctional Integration
+### Level 3: SuperFunctional Integration
 
 {ref: unified_intervention_system.system_integration}
+
+<!-- AI.CONTEXT: Level3_Integration_DemographicNotes -->
+
+**Demographic Adaptation Notes (Integration Focus):**
+
+- **Youth:** Integrate skills into complex sequences and challenges. Encourage creative movement exploration. Continue to prioritize technique in strength elements.
+- **Midlife:** Focus on sustainable integration. Balance high-intensity strength/power with adequate recovery and mobility. Use complex training judiciously.
+- **Seniors:** Focus integration on functional tasks, balance challenges, and cognitive-motor pairing relevant to daily independence and fall prevention. Adapt complex strength/power elements significantly.
+<!-- AI.CONTEXT.END: Level3_Integration_DemographicNotes -->
 
 - **PULL DAY:**
 
@@ -545,6 +668,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Technical precision
       - Flow cultivation
       - Pattern exploration
+      - Neuromuscular Enhancement: Perform cartwheels towards randomly indicated spots (Reactive/Dual-Task).
 
   3.  Strength Complex:
       A. Trap Bar Deadlift 2 _ 4 _ 80-90%1RM
@@ -558,6 +682,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Technical focus
       - Movement mastery
       - Rest: 2-3 minutes
+      - Neuromuscular Enhancement: Combine holds with cognitive tasks or perform on varied surfaces (Dual-Task/Proprioceptive).
 
   4.  Advanced Movement:
       A. Weighted Rope Climb
@@ -571,6 +696,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Movement flow
       - Pattern development
       - Rest: 2 minutes
+      - Neuromuscular Enhancement: Add reactive elements like changing grip or direction on cue (Reactive).
 
   5.  Pull Integration:
 
@@ -584,6 +710,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Movement exploration
       - Pattern development
       - Environmental adaptation
+      - Neuromuscular Enhancement: Integrate cognitive tasks or proprioceptive challenges (e.g., eyes closed) during flow sequences (Dual-Task/Proprioceptive).
 
 - **LEGS AND CORE DAY:**
 
@@ -606,6 +733,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Eyes closed variation
       - Balance mastery
       - Rest: 2 minutes
+      - Neuromuscular Enhancement: Perform pistol squats onto an unstable surface or while completing a cognitive task (Proprioceptive/Dual-Task).
 
   3.  Loaded Movement:
       A. Overhead Weighted Lunge Walk 2 \* Failure
@@ -620,6 +748,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Maximum power
       - Technical precision
       - Rest: 2 minutes
+      - Neuromuscular Enhancement: Perform depth jumps reacting to a visual/auditory cue (Reactive).
 
   4.  Core Integration:
       A. Pike Pulses 3 _ 10 | V-Sit 2 _ Failure
@@ -634,6 +763,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Movement quality
       - Pattern development
       - Rest: 90 seconds
+      - Neuromuscular Enhancement: Add cognitive tasks during holds or reactive cues for transitions (Dual-Task/Reactive).
 
   5.  Movement Mastery:
       A. Static Control:
@@ -649,12 +779,20 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
       - Proprioceptive development
       - Movement awareness
       - Rest: 60 seconds
+      - Neuromuscular Enhancement: Perform holds on unstable surfaces or with eyes closed (Proprioceptive).
 
 ---
 
 ## MOBILITY IMPLEMENTATION
 
 {ref: unified_training_methodology.mobility_development}
+
+<!-- AI.CONTEXT: FasciaIntegrationNote -->
+
+### Fascia Training Integration (Optional)
+
+- Consider incorporating fascia-focused methods like bouncing movements (light plyos, skipping), dynamic stretching (emphasizing spirals and varied vectors), or specific self-myofascial release techniques into warm-ups, cool-downs, or recovery sessions to enhance tissue elasticity and resilience. See `foundation_fascia_training` for concepts.
+<!-- AI.CONTEXT.END: FasciaIntegrationNote -->
 
 ### Dynamic Warm-Up
 

@@ -1,14 +1,14 @@
 <!-- AI.FRAMEWORK.COMPONENT: PROGRAMS_PROGRESSION_MODELS -->
 <!-- AI.METADATA
 component: progression_models
-version: 2.0
-last_updated: 24/04/2025
+version: 2.1
+last_updated: 08/05/2025
 framework_type: program_system
 language: en-US
 parent: superfunctional_training_system
-path: 04-protocols/programs/04-progression-models
-references: master_mission,unified_goal_framework,unified_intervention_system,unified_training_methodology,progression_tracking,movement_culture,energy_systems
-modes: goggins_batman_hybrid
+path: 04-protocols/programs/04-progression-models.md
+references: ["master_mission", "unified_goal_framework", "unified_intervention_system", "unified_training_methodology", "progression_tracking", "movement_culture", "energy_systems", "00-framework-glossary.md"]
+modes: ["default", "darkknight", "warrior"]
 -->
 
 <!-- AI.SECTION.START: PROGRESSION_MODELS -->
@@ -244,7 +244,7 @@ modes: goggins_batman_hybrid
 
 <!-- AI.CONTEXT: MODE_PROGRESSIONS -->
 
-### HYBRID MODE Path
+### DEFAULT MODE Path
 
 **Development Focus:**
 
@@ -266,7 +266,7 @@ modes: goggins_batman_hybrid
    - Technical refinement
    - Performance quality
 
-### GOGGINS MODE Path
+### WARRIOR MODE Path
 
 **Intensity Focus:**
 
@@ -288,7 +288,7 @@ modes: goggins_batman_hybrid
    - Technical stability
    - Performance tracking
 
-### BATMAN MODE Path
+### DARKKNIGHT MODE Path
 
 **Technical Path:**
 

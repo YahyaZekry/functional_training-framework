@@ -1,13 +1,13 @@
 <!-- AI.FRAMEWORK.COMPONENT: EMOTIONAL_TARGETING_FRAMEWORK -->
 <!-- AI.METADATA
 component: emotional_targeting_framework
-version: 1.0
-last_updated: 24/04/2025
+version: 1.1
+last_updated: 08/05/2025
 framework_type: communication_system
 language: en-US
 parent: superfunctional_training_system
-path: 01-core/07-emotional-targeting
-references: master_mission,unified_goal_framework,unified_intervention_system,unified_training_methodology,persona_definitions
+path: 01-core/07-emotional-targeting.md
+references: ["master_mission", "unified_goal_framework", "unified_intervention_system", "unified_training_methodology", "persona_framework", "framework_glossary"]
 -->
 
 # EMOTIONAL TARGETING FRAMEWORK
@@ -84,7 +84,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 - Consistency issues
 - Comfort-seeking tendencies
 
-**Default Trainer Mode Triggers:**
+**Default Mode Triggers:**
 
 - Neutral emotional state
 - Learning-focused language
@@ -100,7 +100,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 
 <!-- AI.CONTEXT: MODE_SPECIFICATIONS -->
 
-### Default Trainer Mode
+### Default Mode
 
 {ref: persona_definitions.default_mode}
 
@@ -249,7 +249,7 @@ references: master_mission,unified_goal_framework,unified_intervention_system,un
 ```
 MODE SELECTION MENU:
 
-1. DEFAULT TRAINER MODE
+1. DEFAULT MODE
    Balanced approach focusing on technical development and strategic progression
 
 2. DARKKNIGHT MODE
@@ -347,7 +347,7 @@ Select your preferred training mode: [1-4]
 
 <!-- AI.CONTEXT: IMPLEMENTATION_EXAMPLES -->
 
-### Default Trainer Mode
+### Default Mode
 
 **Example Response:**
 

@@ -1,19 +1,29 @@
 <!-- AI.FRAMEWORK.COMPONENT: PROGRAMS_WORKOUT_TEMPLATES -->
 <!-- AI.METADATA
 component: programs_workout_templates
-version: 1.0
-last_updated: 24/04/2025
+version: 1.2
+last_updated: 08/05/2025
 framework_type: program_system
 language: en-US
 parent: superfunctional_training_system
-path: 04-protocols/programs/01-workout-templates
-references: master_mission,unified_goal_framework,unified_training_methodology,energy_systems,movement_culture,unified_intervention_system
-modes: goggins_batman_hybrid
+path: 04-protocols/programs/01-workout-templates.md
+references: ["master_mission", "unified_goal_framework", "unified_training_methodology", "foundation_energy_systems", "foundation_movement_culture", "unified_intervention_system", "framework_glossary", "recovery_implementation", "workout_implementation"]
+modes: ["default", "darkknight", "warrior"]
 -->
 
 <!-- AI.SECTION.START: WORKOUT_TEMPLATES -->
 
 # WORKOUT TEMPLATES
+
+<!-- AI.CONTEXT: INTRODUCTION -->
+
+## Introduction
+
+This document provides high-level templates, categories, and structural concepts for designing SuperFunctional Training (SFT) sessions. It outlines different session types (e.g., Movement Foundation, Energy System, Strength-Skill) and formats (Micro, Full, Flow). Use these templates as a guide for structuring training or creating custom sessions aligned with SFT principles.
+
+**For detailed, level-specific workout plans with specific exercises, sets, and reps, refer to the primary Workout Implementation Framework:** `workout_implementation` (located at `03-systems/training/01-workout-system.md`).
+
+<!-- AI.CONTEXT.END: INTRODUCTION -->
 
 ## TEMPLATE CATEGORIES
 
@@ -41,12 +51,12 @@ modes: goggins_batman_hybrid
 
    - 6-12s efforts
    - Mixed system development
-   - Recovery optimization
+   - Recovery optimization (See component: recovery_implementation)
 
 2. Glycolytic system work
 
    - 30s-2min
-   - Recovery integration
+   - Recovery integration (See component: recovery_implementation)
    - Pattern stability
 
 3. Aerobic base building
@@ -78,7 +88,7 @@ modes: goggins_batman_hybrid
 1. 5-15 minute sessions
    - Movement skill focus
    - Energy system development
-   - Recovery integration
+   - Recovery integration (See component: recovery_implementation)
    - Pattern sustainability
 
 ### Full Session Format
@@ -89,7 +99,7 @@ modes: goggins_batman_hybrid
    - Skill development
    - Strength work
    - Energy system training
-   - Recovery integration
+   - Recovery integration (See component: recovery_implementation)
 
 ### Flow Session Format
 
@@ -99,7 +109,7 @@ modes: goggins_batman_hybrid
    - Movement creativity
    - Pattern development
    - Energy management
-   - Recovery integration
+   - Recovery integration (See component: recovery_implementation)
    <!-- AI.CONTEXT.END: WORKOUT_STRUCTURES -->
 
 ## IMPLEMENTATION PROTOCOLS
@@ -130,14 +140,14 @@ modes: goggins_batman_hybrid
    - Power development
    - Work capacity
    - Energy system training
-   - Recovery management
+   - Recovery management (See component: recovery_implementation)
 
 **Energy Development:**
 
 1. System-specific work
    - Capacity building
    - Output enhancement
-   - Recovery integration
+   - Recovery integration (See component: recovery_implementation)
    - Pattern sustainability
 
 **Recovery Integration:**
@@ -147,40 +157,41 @@ modes: goggins_batman_hybrid
    - Pattern reinforcement
    - Energy management
    - Integration support
+   - (See component: recovery_implementation for detailed protocols)
    <!-- AI.CONTEXT.END: IMPLEMENTATION_PROTOCOLS -->
 
 ## MODE-SPECIFIC TEMPLATES
 
 <!-- AI.CONTEXT: MODE_TEMPLATES -->
 
-### HYBRID MODE Sessions
+### DEFAULT MODE Sessions
 
 **Balanced Development:**
 
 1. Technical-intensity harmony
    - Movement complexity progression
    - Energy system optimization
-   - Recovery integration
+   - Recovery integration (See component: recovery_implementation)
    - Pattern sustainability
 
-### GOGGINS MODE Sessions
+### WARRIOR MODE Sessions
 
 **Intensity Focus:**
 
 1. Work capacity emphasis
    - Mental toughness development
    - Energy system challenge
-   - Recovery management
+   - Recovery management (See component: recovery_implementation)
    - Pattern maintenance
 
-### BATMAN MODE Sessions
+### DARKKNIGHT MODE Sessions
 
 **Technical Mastery:**
 
 1. Movement precision
    - Pattern perfection
    - Energy efficiency
-   - Recovery optimization
+   - Recovery optimization (See component: recovery_implementation)
    - System excellence
    <!-- AI.CONTEXT.END: MODE_TEMPLATES -->
 
@@ -207,7 +218,7 @@ modes: goggins_batman_hybrid
 1. System-specific progression
    - Work capacity building
    - Output enhancement
-   - Recovery optimization
+   - Recovery optimization (See component: recovery_implementation)
    - Pattern sustainability
 
 ### Strength Integration Path
@@ -218,7 +229,7 @@ modes: goggins_batman_hybrid
    - Technical power integration
    - Work capacity enhancement
    - Energy system optimization
-   - Recovery management
+   - Recovery management (See component: recovery_implementation)
    <!-- AI.CONTEXT.END: PROGRESSION_MODELS -->
 
 ## TEMPLATE SELECTION
@@ -229,7 +240,7 @@ modes: goggins_batman_hybrid
 
 1. Movement pattern analysis
    - Energy system evaluation
-   - Recovery need identification
+   - Recovery need identification (See component: recovery_implementation)
    - Pattern stability verification
    - System protection check
 
@@ -237,7 +248,7 @@ modes: goggins_batman_hybrid
 
 1. Pattern compatibility
    - Energy system balance
-   - Recovery integration
+   - Recovery integration (See component: recovery_implementation)
    - System protection
    - Integration efficiency
      <!-- AI.CONTEXT.END: TEMPLATE_SELECTION -->

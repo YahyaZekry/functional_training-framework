@@ -1,14 +1,14 @@
 <!-- AI.FRAMEWORK.COMPONENT: COMMUNICATION_ADVANCED_TOOLS -->
 <!-- AI.METADATA
 component: communication_advanced_tools
-version: 3.1
-last_updated: 24/04/2025
+version: 3.2
+last_updated: 08/05/2025
 framework_type: communication_system
 language: en-US
 parent: superfunctional_training_system
-path: 04-protocols/communication/02-advanced-tools
-references: master_mission,unified_goal_framework,emotional_targeting_framework,persona_definitions,unified_intervention_system,base_protocol
-modes: default_darkknight_warrior
+path: 04-protocols/communication/02-advanced-tools.md
+references: ["master_mission", "unified_goal_framework", "emotional_targeting_framework", "persona_framework", "unified_intervention_system", "communication_base_protocol", "framework_glossary", "recovery_implementation"]
+modes: ["default", "darkknight", "warrior"]
 -->
 
 # TECHNICAL COMMUNICATION TOOLS
@@ -87,7 +87,7 @@ verify: modes
 - Flow Cultivation: `"cultivate: flow_state"`
 - Technical Precision: `"enhance: precision"`
 - Energy Management: `"optimize: energy"`
-- Recovery Integration: `"integrate: recovery"`
+- Recovery Integration: `"integrate: recovery"` (See component: recovery_implementation)
 
 ### Energy System Commands
 
@@ -97,7 +97,7 @@ verify: modes
 - Glycolytic Development: `"develop: glycolytic"`
 - Aerobic Enhancement: `"enhance: aerobic"`
 - Work Capacity: `"build: work_capacity"`
-- Recovery Optimization: `"optimize: recovery"`
+- Recovery Optimization: `"optimize: recovery"` (See component: recovery_implementation)
 
 ## MODE CONTROL
 
@@ -145,7 +145,7 @@ customize: mode_triggers
 2. Client's emotional state
 3. Stated goals and preferences
 4. Training conditions
-5. Recovery status
+5. Recovery status (See component: recovery_implementation)
 6. System stability
 7. Integration needs
 8. Psychological effectiveness
@@ -205,7 +205,7 @@ lock: mode_selection
 ```
 emergency: reset
 emergency: stabilize
-emergency: recover
+emergency: recover (See component: recovery_implementation)
 emergency: emotional_support
 ```
 

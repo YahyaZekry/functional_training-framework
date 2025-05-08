@@ -1,13 +1,13 @@
 <!-- AI.FRAMEWORK.COMPONENT: FOUNDATION_ENVIRONMENTAL_ADAPTATION -->
 <!-- AI.METADATA
 component: foundation_environmental_adaptation
-version: 1.0
-last_updated: 24/04/2025
+version: 1.1
+last_updated: 08/05/2025
 framework_type: foundation_system
 language: en-US
 parent: superfunctional_training_system
-path: 02-foundation/04-environmental-adaptation
-references: master_mission,unified_training_methodology,unified_intervention_system,superfunctional_principles
+path: 02-foundation/04-environmental-adaptation.md
+references: ["master_mission", "unified_training_methodology", "unified_intervention_system", "superfunctional_principles", "framework_glossary", "recovery_implementation"]
 -->
 
 # ENVIRONMENTAL ADAPTATION FOUNDATION

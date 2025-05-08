@@ -1,13 +1,13 @@
 <!-- AI.FRAMEWORK.COMPONENT: UNIFIED_INTERVENTION_SYSTEM -->
 <!-- AI.METADATA
 component: unified_intervention_system
-version: 3.1
-last_updated: 24/04/2025
+version: 3.4
+last_updated: 08/05/2025
 framework_type: intervention_system
 language: en-US
 parent: superfunctional_training_system
-path: 01-core/02-unified-intervention-levels
-references: master_mission,unified_goal_framework,unified_training_methodology,progression_tracking,persona_definitions
+path: 01-core/02-unified-intervention-levels.md
+references: ["master_mission", "unified_goal_framework", "unified_training_methodology", "progression_tracking", "persona_framework", "framework_glossary", "brain_physical_integration_map", "demographic_integration_overview", "level_transition_guidelines", "atsp_hierarchy_mapping"]
 -->
 
 # UNIFIED INTERVENTION SYSTEM
@@ -163,7 +163,7 @@ references: master_mission,unified_goal_framework,unified_training_methodology,p
 
 <!-- AI.CONTEXT: PROGRESSION_FRAMEWORK -->
 
-### Level 1: Foundation
+### Level 0: Foundation
 
 **Movement Basics:**
 
@@ -175,7 +175,7 @@ references: master_mission,unified_goal_framework,unified_training_methodology,p
 - Recovery understanding
 - Environmental awareness
 
-### Level 2: Pattern Development
+### Level 1: Pattern Development
 
 **Movement Integration:**
 
@@ -187,7 +187,7 @@ references: master_mission,unified_goal_framework,unified_training_methodology,p
 - Pattern stability
 - Environmental competence
 
-### Level 3: Advanced Integration
+### Level 2: Advanced Integration
 
 **System Mastery:**
 
@@ -199,7 +199,7 @@ references: master_mission,unified_goal_framework,unified_training_methodology,p
 - Pattern sustainability
 - Environmental mastery
 
-### Level 4: Movement Innovation
+### Level 3: Movement Innovation
 
 **Creative Expression:**
 

@@ -1,14 +1,14 @@
 <!-- AI.FRAMEWORK.COMPONENT: UNIFIED_TRACKING_FRAMEWORK -->
 <!-- AI.METADATA
 component: unified_tracking_framework
-version: 3.1
-last_updated: 24/04/2025
+version: 3.3
+last_updated: 08/05/2025
 framework_type: tracking_system
 language: en-US
 parent: superfunctional_training_system
-path: 03-systems/implementation/04-tracking-framework
-references: master_mission,unified_goal_framework,progression_tracking,emotional_targeting_framework,mind_body_integration,neural_physical_harmony,energy_systems
-modes: default_darkknight_warrior
+path: 03-systems/implementation/04-tracking-framework.md
+references: ["master_mission", "unified_goal_framework", "progression_tracking", "emotional_targeting_framework", "foundation_mind_body_integration", "foundation_neural_physical_harmony", "foundation_energy_systems", "framework_glossary", "recovery_implementation", "movement_assessment_correctives"]
+modes: ["default", "darkknight", "warrior"]
 -->
 
 # UNIFIED TRACKING FRAMEWORK
@@ -89,6 +89,7 @@ modes: default_darkknight_warrior
 ### Movement Pattern Tracking
 
 {ref: neural_physical_harmony.movement_assessment}
+(See also component: `movement_assessment_correctives`)
 
 **Straight Arm Strength:**
 
@@ -126,7 +127,7 @@ modes: default_darkknight_warrior
 1. Emotional state trends
    - Mode effectiveness correlation
    - Performance impact analysis
-   - Recovery quality relationship
+   - Recovery quality relationship (See component: recovery_implementation)
    - Consistency correlation
    - Progress markers
    <!-- AI.CONTEXT.END: CORE_MEASUREMENT -->
@@ -143,14 +144,14 @@ modes: default_darkknight_warrior
    - Force production
    - Speed development
    - Power endurance
-   - Recovery quality
+   - Recovery quality (See component: recovery_implementation)
    - Pattern sustainability
 
 **Glycolytic Capacity:**
 
 1. Lactate threshold
    - Output sustainability
-   - Recovery speed
+   - Recovery speed (See component: recovery_implementation)
    - Pattern stability
    - Work capacity
    - System resilience
@@ -297,13 +298,13 @@ modes: default_darkknight_warrior
    - Framework updating
    - Emotional impact analysis
 
-**Assessment Protocol:**
+**Assessment Protocol:** (See component: `movement_assessment_correctives` for detailed screen)
 
 1. Initial Evaluation
    - Technical capacity
    - Work potential
    - Learning ability
-   - Recovery needs
+   - Recovery needs (See component: recovery_implementation)
    - Integration readiness
    - Emotional baseline
 
@@ -357,7 +358,7 @@ modes: default_darkknight_warrior
 
 1. Volume tolerance
    - Output potential
-   - Recovery speed
+   - Recovery speed (See component: recovery_implementation)
    - Pattern stability
    - Energy management
    - Performance quality
@@ -513,7 +514,7 @@ modes: default_darkknight_warrior
    - Training adherence rates
    - Performance improvements
    - Technical precision development
-   - Recovery compliance
+   - Recovery compliance (See component: recovery_implementation)
    - Goal achievement speed
    - Emotional state improvement
 
@@ -538,7 +539,7 @@ modes: default_darkknight_warrior
 
 1. Pattern modification
    - Energy management
-   - Recovery activation
+   - Recovery activation (See component: recovery_implementation)
    - System stabilization
    - Integration adjustment
    - Adaptation support
@@ -551,7 +552,7 @@ modes: default_darkknight_warrior
 
 1. Movement modification
    - Energy conservation
-   - Recovery enhancement
+   - Recovery enhancement (See component: recovery_implementation)
    - Pattern protection
    - System stabilization
    - Integration maintenance

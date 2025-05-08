@@ -1,13 +1,13 @@
 <!-- AI.FRAMEWORK.COMPONENT: UNIFIED_GOAL_FRAMEWORK -->
 <!-- AI.METADATA
 component: unified_goal_framework
-version: 3.0
-last_updated: 24/04/2025
+version: 3.1
+last_updated: 08/05/2025
 framework_type: goal_definition
 language: en-US
 parent: superfunctional_training_system
-path: 01-core/05-unified-goal-framework
-references: master_mission,unified_intervention_system,unified_tracking_framework,unified_training_methodology
+path: 01-core/05-unified-goal-framework.md
+references: ["master_mission", "unified_intervention_system", "unified_tracking_framework", "unified_training_methodology", "framework_glossary", "recovery_implementation"]
 -->
 
 # UNIFIED GOAL FRAMEWORK
@@ -81,7 +81,7 @@ references: master_mission,unified_intervention_system,unified_tracking_framewor
    - Physical development aims
    - Neural adaptation goals
    - Energy system objectives
-   - Recovery requirements
+   - Recovery requirements (See component: recovery_implementation)
    - Pattern stability goals
    - System protection needs
 
@@ -91,7 +91,7 @@ references: master_mission,unified_intervention_system,unified_tracking_framewor
    - Observable metrics
    - Measurable indicators
    - Performance markers
-   - Recovery feedback
+   - Recovery feedback (See component: recovery_implementation)
    - Pattern stability signs
    - System health markers
    - Integration efficiency
@@ -102,7 +102,7 @@ references: master_mission,unified_intervention_system,unified_tracking_framewor
    - Physical enhancement aims
    - Neural adaptation purpose
    - Energy optimization goals
-   - Recovery integration needs
+   - Recovery integration needs (See component: recovery_implementation)
    - Pattern sustainability purpose
    - System protection rationale
    <!-- AI.CONTEXT.END: ENTRY_FRAMEWORK -->
@@ -119,7 +119,7 @@ references: master_mission,unified_intervention_system,unified_tracking_framewor
    - Development phases
    - Progress milestones
    - Integration periods
-   - Recovery windows
+   - Recovery windows (See component: recovery_implementation)
    - Adaptation checkpoints
    - System stability markers
    - Evaluation points
@@ -131,7 +131,7 @@ references: master_mission,unified_intervention_system,unified_tracking_framewor
    - Equipment requirements
    - Space considerations
    - Environmental factors
-   - Recovery spaces
+   - Recovery spaces (See component: recovery_implementation)
    - System support needs
    - Integration locations
 
@@ -140,7 +140,7 @@ references: master_mission,unified_intervention_system,unified_tracking_framewor
    - Training partners
    - Technical guides
    - Support system
-   - Recovery assistance
+   - Recovery assistance (See component: recovery_implementation)
    - System protection team
    - Integration support
    - Adaptation monitors
@@ -159,7 +159,7 @@ references: master_mission,unified_intervention_system,unified_tracking_framewor
    - Physical enhancement protocol
    - Neural adaptation methods
    - Energy system protocols
-   - Recovery integration actions
+   - Recovery integration actions (See component: recovery_implementation)
    - Pattern stability measures
    - System protection steps
 
@@ -170,7 +170,7 @@ references: master_mission,unified_intervention_system,unified_tracking_framewor
    - Physical control
    - Neural development
    - Energy management
-   - Recovery self-sufficiency
+   - Recovery self-sufficiency (See component: recovery_implementation)
    - System maintenance
    - Integration independence
 
@@ -181,7 +181,7 @@ references: master_mission,unified_intervention_system,unified_tracking_framewor
    - Energy distribution
    - Equipment utilization
    - Space optimization
-   - Recovery resources
+   - Recovery resources (See component: recovery_implementation)
    - Support system engagement
 
 4. **Progress Metrics (مقاييس التقدم - Progress Measurements)**
@@ -189,7 +189,7 @@ references: master_mission,unified_intervention_system,unified_tracking_framewor
 
    - Performance indicators
    - Development markers
-   - Recovery measures
+   - Recovery measures (See component: recovery_implementation)
    - Adaptation signs
    - Integration efficiency
    - System stability
@@ -209,7 +209,7 @@ references: master_mission,unified_intervention_system,unified_tracking_framewor
    - Daily practice
    - Weekly structure
    - Monthly progression
-   - Recovery periods
+   - Recovery periods (See component: recovery_implementation)
    - System optimization
 
 7. **Performance Enhancement (تحسين الأداء - Performance Enhancement)**
@@ -218,14 +218,14 @@ references: master_mission,unified_intervention_system,unified_tracking_framewor
    - Skill development
    - Power optimization
    - Energy efficiency
-   - Recovery quality
+   - Recovery quality (See component: recovery_implementation)
    - Pattern mastery
 
 8. **System Protection (حماية النظام - System Protection)**
    {ref: unified_intervention_system.protection_protocols}
 
    - Load management
-   - Recovery protocols
+   - Recovery protocols (See component: recovery_implementation)
    - Pattern stability
    - Energy conservation
    - Integration safety
@@ -236,7 +236,7 @@ references: master_mission,unified_intervention_system,unified_tracking_framewor
    - Progress documentation
    - Pattern assessment
    - Energy monitoring
-   - Recovery evaluation
+   - Recovery evaluation (See component: recovery_implementation)
    - System analysis
    <!-- AI.CONTEXT.END: IMPLEMENTATION_FRAMEWORK -->
 
@@ -248,7 +248,7 @@ references: master_mission,unified_intervention_system,unified_tracking_framewor
 
    - Life integration
    - Physical-mental harmony
-   - Energy-recovery balance
+   - Energy-recovery balance (See component: recovery_implementation)
    - System stability
    - Pattern sustainability
    - Integration efficiency
@@ -260,7 +260,7 @@ references: master_mission,unified_intervention_system,unified_tracking_framewor
    - Physical commitment
    - Neural development resolve
    - Energy optimization dedication
-   - Recovery commitment
+   - Recovery commitment (See component: recovery_implementation)
    - System protection resolve
    - Integration determination
 
@@ -271,7 +271,7 @@ references: master_mission,unified_intervention_system,unified_tracking_framewor
    - Physical development signs
    - Neural adaptation indicators
    - Energy optimization metrics
-   - Recovery efficiency measures
+   - Recovery efficiency measures (See component: recovery_implementation)
    - System stability markers
    - Integration success signs
    <!-- AI.CONTEXT.END: VERIFICATION_FRAMEWORK -->
@@ -290,7 +290,7 @@ references: master_mission,unified_intervention_system,unified_tracking_framewor
 4. Document all responses
 5. Verify completion status
 
-### HYBRID MODE
+### DEFAULT MODE
 
 - Balanced progression focus
 - Technical-intensity harmony
@@ -300,7 +300,7 @@ references: master_mission,unified_intervention_system,unified_tracking_framewor
 - System protection
 - Adaptation monitoring
 
-### GOGGINS MODE
+### WARRIOR MODE
 
 - Intensity progression emphasis
 - Mental toughness development
@@ -310,7 +310,7 @@ references: master_mission,unified_intervention_system,unified_tracking_framewor
 - System resilience
 - Adaptation tracking
 
-### BATMAN MODE
+### DARKKNIGHT MODE
 
 - Technical precision focus
 - Movement mastery emphasis
@@ -341,7 +341,7 @@ references: master_mission,unified_intervention_system,unified_tracking_framewor
 - Physical development signs
 - Neural adaptation indicators
 - Energy optimization metrics
-- Recovery efficiency measures
+- Recovery efficiency measures (See component: recovery_implementation)
 - System stability markers
 - Integration success signs
   <!-- AI.CONTEXT.END: IMPLEMENTATION_GUIDELINES -->
