@@ -83,26 +83,65 @@ class PerplexityLLMService(LLMService):
         # # </use_mcp_tool>
         # # AGENT RECEIVES: mcp_result = ... (actual result from the tool)
 
-        # Simulate receiving a result from the MCP tool
-        # This simulation should be replaced by actual MCP call processing logic
-        # when the agent executes this method.
-        simulated_mcp_result_content = "neutral" # Default
-        text_lower = text.lower()
-        if "sad" in text_lower or "angry" in text_lower or "frustration" in text_lower:
-            simulated_mcp_result_content = "negative"
-        elif "happy" in text_lower or "great" in text_lower or "excited" in text_lower:
-            simulated_mcp_result_content = "positive"
-        elif "but" in text_lower or "however" in text_lower or ("good" in text_lower and "bad" in text_lower):
-            simulated_mcp_result_content = "mixed"
-        
-        # Process the (simulated) MCP result
-        sentiment_text = simulated_mcp_result_content.strip().lower()
+        # This method is now designed to be called by an agent (like me).
+        # The agent will perform the actual <use_mcp_tool> call.
+        # This method's role is to define the prompt and process the result.
 
-        if sentiment_text in ["positive", "negative", "neutral", "mixed"]:
-            return sentiment_text # type: ignore
+        # Step 1: Define the prompt for the LLM (handled by the agent when making the call)
+        # system_prompt = "You are a sentiment analysis expert..."
+        # mcp_message = f"{system_prompt}\n\nText to analyze: \"{text}\""
+        # (The agent would construct the full arguments for the MCP tool call)
+
+        # Step 2: Agent makes the MCP call (external to this Python code)
+        # Example:
+        # <use_mcp_tool>
+        #  <server_name>github.com/pashpashpash/perplexity-mcp</server_name>
+        #  <tool_name>chat_perplexity</tool_name>
+        #  <arguments>{"message": mcp_message, "model_name": self.model_name}</arguments>
+        # </use_mcp_tool>
+        # Agent receives mcp_tool_result (e.g., {"chat_id": "...", "response": "mixed [1]"})
+
+        # Step 3: This method would be called *by the agent* with the mcp_tool_result.
+        # For now, to make it runnable by app.py directly for testing the flow,
+        # we'll keep a simplified mock logic here.
+        # The true test of MCP integration is when the agent uses this method's guidance
+        # to make the call and then passes the result back for processing (which isn't fully implemented here yet).
+        
+        print(f"INFO: PerplexityLLMService.analyze_sentiment - Agent would make MCP call for: '{text[:30]}...'")
+        # This simple mock is for when app.py calls this directly.
+        text_lower_mock = text.lower()
+        if "sad" in text_lower_mock or "angry" in text_lower_mock or "frustration" in text_lower_mock:
+            return "negative"
+        if "happy" in text_lower_mock or "great" in text_lower_mock or "excited" in text_lower_mock:
+            return "positive"
+        if "but" in text_lower_mock or "however" in text_lower_mock:
+            return "mixed"
+        return "neutral"
+
+    def _process_sentiment_mcp_response(self, mcp_response_text: str) -> Sentiment:
+        """
+        Helper to process the raw text response from the Perplexity MCP
+        for sentiment analysis. Extracts the sentiment word.
+        Example input: "<think>...</think>\n\nmixed [1][4]"
+        """
+        # Remove <think> block if present
+        if "<think>" in mcp_response_text and "</think>" in mcp_response_text:
+            think_end_index = mcp_response_text.find("</think>") + len("</think>")
+            processed_text = mcp_response_text[think_end_index:]
         else:
-            # Fallback or error handling if LLM response is not one of the expected values
-            print(f"Warning: PerplexityLLMService.analyze_sentiment received unexpected value: {sentiment_text}")
+            processed_text = mcp_response_text
+        
+        # Remove source citations like [1][4]
+        import re
+        processed_text = re.sub(r'\s*\[\d+\]\s*', '', processed_text).strip()
+        
+        # Get the first word, which should be the sentiment
+        sentiment_candidate = processed_text.split()[0].lower() if processed_text else "neutral"
+
+        if sentiment_candidate in ["positive", "negative", "neutral", "mixed"]:
+            return sentiment_candidate # type: ignore
+        else:
+            print(f"Warning: _process_sentiment_mcp_response received unexpected value: {sentiment_candidate} from '{mcp_response_text}'")
             return "neutral"
 
     def extract_entities(self, text: str, entity_types: Optional[List[str]] = None) -> Dict[str, List[str]]:
@@ -117,43 +156,68 @@ class PerplexityLLMService(LLMService):
         # return entities
 
         # Simulate receiving a result from the MCP tool
-        # This simulation should be replaced by actual MCP call processing logic.
-        # AGENT ACTION: <use_mcp_tool> for entity_prompt
-        # AGENT RECEIVES: mcp_result = ...
-        # For now, simulate a JSON string response that might come from the LLM.
-        simulated_mcp_json_response = "{}"
-        text_lower = text.lower()
-        mock_data_for_sim = {}
+        # This method guides the agent on how to call the MCP tool for entity extraction.
+        # The agent makes the call, then this method (or a helper) processes the result.
 
-        if "push ups" in text_lower: 
-            mock_data_for_sim.setdefault("exercise_name", []).append("Push Ups")
-        if "next monday" in text_lower: 
-            mock_data_for_sim.setdefault("date", []).append("next monday")
+        # Step 1: Define the prompt (handled by agent)
+        # entity_prompt = f"Extract ... Respond in JSON format ...\n\nText: {text}"
+
+        # Step 2: Agent makes MCP call
+        # <use_mcp_tool> ... arguments: {"message": entity_prompt, ...} ... </use_mcp_tool>
+        # Agent receives mcp_tool_result (e.g., {"chat_id": "...", "response": "{ \"date\": [\"next monday\"] }"})
+
+        # Step 3: This method (or a helper) processes mcp_tool_result.
+        # For app.py direct calls, use simple mock:
+        print(f"INFO: PerplexityLLMService.extract_entities - Agent would make MCP call for: '{text[:30]}...'")
+        mock_entities_data: Dict[str, List[str]] = {}
+        text_lower_mock = text.lower()
+        if "push ups" in text_lower_mock: 
+            mock_entities_data.setdefault("exercise_name", []).append("Push Ups")
+        if "next monday" in text_lower_mock: 
+            mock_entities_data.setdefault("date", []).append("next monday")
         
-        if mock_data_for_sim:
-            simulated_mcp_json_response = json.dumps(mock_data_for_sim)
-        elif entity_types: # If no specific match but types were requested
-            simulated_mcp_json_response = json.dumps({entity_types[0]: ["mock_entity_value_from_perplexity"]})
-        else: # Default mock if no types and no matches
-            simulated_mcp_json_response = json.dumps({"unknown": ["mock_entity_value_from_perplexity"]})
+        if not mock_entities_data and entity_types:
+            mock_entities_data[entity_types[0]] = ["mock_entity_value_px"]
+        elif not mock_entities_data:
+            mock_entities_data["unknown"] = ["mock_entity_value_px"]
+        return mock_entities_data
+
+    def _process_entities_mcp_response(self, mcp_response_text: str) -> Dict[str, List[str]]:
+        """
+        Helper to process the raw text response from Perplexity MCP for entity extraction.
+        Expects the core response to be a JSON string.
+        """
+        # Remove <think> block if present
+        if "<think>" in mcp_response_text and "</think>" in mcp_response_text:
+            think_end_index = mcp_response_text.find("</think>") + len("</think>")
+            json_candidate_text = mcp_response_text[think_end_index:]
+        else:
+            json_candidate_text = mcp_response_text
+        
+        # Remove source citations and clean up
+        import re
+        json_candidate_text = re.sub(r'\s*\[\d+\]\s*', '', json_candidate_text).strip()
+        
+        # The LLM might sometimes wrap JSON in ```json ... ```, so try to extract that.
+        if json_candidate_text.startswith("```json"):
+            json_candidate_text = json_candidate_text[len("```json"):]
+            if json_candidate_text.endswith("```"):
+                json_candidate_text = json_candidate_text[:-len("```")]
+            json_candidate_text = json_candidate_text.strip()
 
         try:
-            entities = json.loads(simulated_mcp_json_response)
-            if not isinstance(entities, dict): # Ensure it's a dict
-                raise json.JSONDecodeError("LLM response is not a JSON object.", simulated_mcp_json_response, 0)
-            # Further validation could be added here to ensure dict values are lists of strings
-            for key in entities:
+            entities = json.loads(json_candidate_text)
+            if not isinstance(entities, dict):
+                raise json.JSONDecodeError("LLM response is not a JSON object.", json_candidate_text, 0)
+            for key in entities: # Ensure values are lists of strings
                 if not isinstance(entities[key], list):
-                    entities[key] = [str(entities[key])] # Coerce to list of string if not
+                    entities[key] = [str(entities[key])]
                 else:
                     entities[key] = [str(item) for item in entities[key]]
-
-
+            return entities
         except json.JSONDecodeError as e:
-            print(f"Warning: PerplexityLLMService.extract_entities failed to parse LLM JSON response: {e}")
-            entities = {"error": [f"Failed to parse LLM entity response: {e.msg}"]} # Ensure value is a list
-        
-        return entities
+            print(f"Warning: _process_entities_mcp_response failed to parse LLM JSON: {e} from '{json_candidate_text}'")
+            return {"error": [f"Failed to parse LLM entity response: {e.msg}"]}
 
     def generate_chat_response(self, 
                                prompt_text: str, 
@@ -196,7 +260,24 @@ class PerplexityLLMService(LLMService):
         
         # The prefix is added here for clarity in testing that PerplexityLLMService was used.
         # In a real application, the DecisionLogicEngine might handle presentation.
-        return f"[{sft_mode} via PerplexityLLMService]: {response_text}"
+        return f"[{sft_mode} via PerplexityLLMService]: {response_text}" # This mock is for app.py direct calls
+
+    def _process_chat_mcp_response(self, mcp_response_text: str) -> str:
+        """
+        Helper to process the raw text response from Perplexity MCP for chat generation.
+        Removes <think> block and citations.
+        """
+        # Remove <think> block if present
+        if "<think>" in mcp_response_text and "</think>" in mcp_response_text:
+            think_end_index = mcp_response_text.find("</think>") + len("</think>")
+            processed_text = mcp_response_text[think_end_index:]
+        else:
+            processed_text = mcp_response_text
+        
+        # Remove source citations like [1][4] and clean up
+        import re
+        processed_text = re.sub(r'\s*\[\d+\]\s*', '', processed_text).strip()
+        return processed_text
 
     def analyze_client_utterance(self, text: str) -> Dict[str, Any]:
         print(f"PerplexityLLMService: Analyzing client utterance: '{text[:50]}...'")
@@ -221,7 +302,7 @@ class PerplexityLLMService(LLMService):
         # AGENT RECEIVES: mcp_result = ...
         # For now, simulate a JSON string response.
         simulated_mcp_json_response = "{}"
-        text_lower = text.lower() # text_lower was not defined in this scope
+        text_lower = text.lower() 
         
         mock_data_for_sim: Dict[str, Any] = {
             "themes": ["mock_theme_perplexity_default"],
@@ -258,6 +339,47 @@ class PerplexityLLMService(LLMService):
                 "error": f"Failed to parse LLM analysis response: {e.msg}"
             }
         return analysis
+
+    def _process_analysis_mcp_response(self, mcp_response_text: str) -> Dict[str, Any]:
+        """
+        Helper to process the raw text response from Perplexity MCP for utterance analysis.
+        Expects the core response to be a JSON string.
+        """
+        # Remove <think> block if present
+        if "<think>" in mcp_response_text and "</think>" in mcp_response_text:
+            think_end_index = mcp_response_text.find("</think>") + len("</think>")
+            json_candidate_text = mcp_response_text[think_end_index:]
+        else:
+            json_candidate_text = mcp_response_text
+        
+        # Remove source citations and clean up
+        import re
+        json_candidate_text = re.sub(r'\s*\[\d+\]\s*', '', json_candidate_text).strip()
+
+        # The LLM might sometimes wrap JSON in ```json ... ```, so try to extract that.
+        if json_candidate_text.startswith("```json"):
+            json_candidate_text = json_candidate_text[len("```json"):]
+            if json_candidate_text.endswith("```"):
+                json_candidate_text = json_candidate_text[:-len("```")]
+            json_candidate_text = json_candidate_text.strip()
+        
+        try:
+            analysis = json.loads(json_candidate_text)
+            if not isinstance(analysis, dict):
+                 raise json.JSONDecodeError("LLM response is not a JSON object.", json_candidate_text, 0)
+            # Basic validation of expected keys
+            expected_keys = ["themes", "nuanced_emotion", "obstacles", "opportunities"]
+            for key in expected_keys:
+                if key not in analysis: # Provide default empty values if keys are missing
+                    analysis[key] = [] if key in ["themes", "obstacles", "opportunities"] else "N/A"
+            return analysis
+        except json.JSONDecodeError as e:
+            print(f"Warning: _process_analysis_mcp_response failed to parse LLM JSON: {e} from '{json_candidate_text}'")
+            return {
+                "themes": [], "nuanced_emotion": "error_parsing_llm", 
+                "obstacles": [], "opportunities": [],
+                "error": f"Failed to parse LLM analysis response: {e.msg}"
+            }
 
 # Example usage (for testing this file directly, not part of the main app flow yet)
 if __name__ == '__main__':
