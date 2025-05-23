@@ -7,10 +7,10 @@ from .state_manager.state_manager import StateManager
 from .core_models.client import Client, SexEnum
 from .core_models.goal import Goal, EntryFrameworkModel
 from .logic_engine.decision_engine import (
-    DecisionLogicEngine, 
-    WORKOUT_IMPLEMENTATION_FILE  # Import the constant
+    DecisionLogicEngine,
+    WORKOUT_IMPLEMENTATION_FILE
 )
-from .llm_integration.llm_service import LLMService
+from .llm_integration import PerplexityLLMService # Import PerplexityLLMService
 
 def main():
     print("SFT AI Framework - Advanced LLM Integration Test")
@@ -21,7 +21,7 @@ def main():
     all_items = parser.parse_all_documents()
     state_manager = StateManager()
     state_manager.load_sft_items(all_items)
-    llm_service = LLMService()  # Using mock LLM service
+    llm_service = PerplexityLLMService()  # Use PerplexityLLMService
     decision_engine = DecisionLogicEngine(state_manager, llm_service)
 
     print("\n--- Communication Mode Test ---")

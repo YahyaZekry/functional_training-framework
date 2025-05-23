@@ -1,4 +1,9 @@
-# SFT LLM Integration Layer
-# This module will manage interactions with Large Language Models.
+from .llm_service import LLMService, Sentiment, ChatMessage
+from .perplexity_llm_service import PerplexityLLMService
 
-from .llm_service import LLMService
+__all__ = [
+    "LLMService",
+    "Sentiment",
+    "ChatMessage",
+    "PerplexityLLMService"
+]
