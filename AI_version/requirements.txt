@@ -1,0 +1,14 @@
+# Python dependencies for the SFT AI Framework
+# Add libraries like:
+# pydantic
+# openai
+# mistune
+# sqlalchemy
+# psycopg2-binary (for PostgreSQL)
+# pymongo (for MongoDB)
+# fastapi
+# uvicorn
+# requests
+
+pydantic>=2.0 # Using Pydantic v2 for its performance and features
+mistune>=3.0.0 # For robust markdown parsing
